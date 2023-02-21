@@ -1,0 +1,35 @@
+evomaster --blackBox true --outputFormat JAVA_JUNIT_5 --maxTime 15m --ratePerMinute 60 --outputFolder D:\Workspace\apiTesting\report\Evomaster\4\JAVA_JUNIT_5 --bbSwaggerUrl https://api.apis.guru/v2/specs/6-dot-authentiqio.appspot.com/6/openapi.yaml
+*
+ _____          ___  ___          _
+|  ___|         |  \/  |         | |
+| |____   _____ | .  . | __ _ ___| |_ ___ _ __
+|  __\ \ / / _ \| |\/| |/ _` / __| __/ _ \ '__|
+| |___\ V / (_) | |  | | (_| \__ \ ||  __/ |
+\____/ \_/ \___/\_|  |_/\__,_|___/\__\___|_|
+
+
+* EvoMaster version: 1.6.0
+* WARNING: You are doing Black-Box testing, but you did not specify the 'problemType'. The system will default to RESTful API testing.
+* Initializing...
+09:17:30.339 [main] WARN  o.e.c.p.rest.RestActionBuilderV3 - Fail to parse endpoint POST/key due to body.content must not be null
+09:17:30.352 [main] WARN  o.e.c.p.rest.RestActionBuilderV3 - Fail to parse endpoint POST/key/{PK} due to body.content must not be null
+09:17:30.352 [main] WARN  o.e.c.p.rest.RestActionBuilderV3 - Fail to parse endpoint PUT/key/{PK} due to body.content must not be null
+09:17:30.353 [main] WARN  o.e.c.problem.rest.param.BodyParam - Not supported data type: application/jwt
+* There are 11 usable RESTful API endpoints defined in the schema configuration
+* There are 3 endpoints which might have errors and would not be handled in the generation
+09:17:30.385 [main] WARN  o.e.c.p.rest.RestActionBuilderV3 - No type/format information provided for 'AuthentiqID'. Defaulting to 'string'
+09:17:30.385 [main] WARN  o.e.c.p.rest.RestActionBuilderV3 - No type/format information provided for 'Claims'. Defaulting to 'string'
+09:17:30.385 [main] WARN  o.e.c.p.rest.RestActionBuilderV3 - No type/format information provided for 'Error'. Defaulting to 'string'
+09:17:30.385 [main] WARN  o.e.c.p.rest.RestActionBuilderV3 - No type/format information provided for 'PushToken'. Defaulting to 'string'
+* Starting to generate test cases
+* Consumed search budget: 100.357%; covered targets: 17; time per test: 5799.6ms (5.8 actions)
+* Going to save 12 tests to D:\Workspace\apiTesting\report\Evomaster\4\JAVA_JUNIT_5
+* Evaluated tests: 160
+* Evaluated actions: 899
+* Needed budget: 88%
+* Passed time (seconds): 903
+* Execution time per test (ms): Avg=5640.98 , min=686.00 , max=10087.00
+* Computation overhead between tests (ms): Avg=4.01 , min=0.00 , max=20.00
+* Successfully executed (HTTP code 2xx) 0 endpoints out of 11 (0%)
+* EvoMaster process has completed successfully
+* Use --help and visit http://www.evomaster.org to learn more about available options

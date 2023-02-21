@@ -1,0 +1,363 @@
+> Task :run
+10:11:14.197 [main] INFO  io.resttestgen.core.cli.App - RestTestGen Core 23.01 started.
+10:11:14.226 [main] DEBUG io.resttestgen.core.datatype.NormalizedParameterName - Names to qualify: [id, name]
+10:11:14.231 [main] INFO  io.resttestgen.core.openapi.OpenAPIParser - OpenAPI specification loaded correctly.
+10:11:14.231 [main] INFO  io.resttestgen.core.openapi.OpenAPIParser - Enriching specification with schema names..
+10:11:14.231 [main] INFO  io.resttestgen.core.openapi.OpenAPIParser - Solving components/schemas refs..
+10:11:14.235 [main] INFO  io.resttestgen.core.openapi.OpenAPIParser - Solving components/responses refs..
+10:11:14.238 [main] INFO  io.resttestgen.core.openapi.OpenAPIParser - Solving components/parameters refs..
+10:11:14.238 [main] INFO  io.resttestgen.core.openapi.OpenAPIParser - Solving components/requestBodies refs..
+10:11:14.253 [main] INFO  io.resttestgen.core.openapi.OpenAPIParser - Specification references solved.
+10:11:14.253 [main] INFO  io.resttestgen.core.openapi.OpenAPIParser - Inferring parameter types where missing...
+10:11:14.271 [main] DEBUG io.resttestgen.core.openapi.Operation - Fetching operation DELETE /key
+10:11:14.281 [main] DEBUG io.resttestgen.core.openapi.Operation -       PathParams: []
+10:11:14.292 [main] DEBUG io.resttestgen.core.openapi.Operation -       QueryParams: [code (Code, QUERY), email (Email, QUERY), phone (Phone, QUERY)]
+10:11:14.292 [main] DEBUG io.resttestgen.core.openapi.Operation -       HeaderParams: []
+10:11:14.293 [main] DEBUG io.resttestgen.core.openapi.Operation -       CookieParams: []
+10:11:14.293 [main] DEBUG io.resttestgen.core.openapi.Operation -       RequestBody: null
+10:11:14.294 [main] DEBUG io.resttestgen.core.openapi.Operation -       OutputParams: {200=: {status (Statu, RESPONSE_BODY)}, default=: {detail (Detail, RESPONSE_BODY), 
+error (Error, RESPONSE_BODY), title (Titl, RESPONSE_BODY), type (Type, RESPONSE_BODY)}, 401=: {detail (Detail, RESPONSE_BODY), error (Error, RESPONSE_BODY), title (Titl,
+ RESPONSE_BODY), type (Type, RESPONSE_BODY)}, 404=: {detail (Detail, RESPONSE_BODY), error (Error, RESPONSE_BODY), title (Titl, RESPONSE_BODY), type (Type, RESPONSE_BODY
+)}, 409=: {detail (Detail, RESPONSE_BODY), error (Error, RESPONSE_BODY), title (Titl, RESPONSE_BODY), type (Type, RESPONSE_BODY)}}
+10:11:14.295 [main] DEBUG io.resttestgen.core.openapi.Operation -       OutputParamsSet: [title (Titl, RESPONSE_BODY), type (Type, RESPONSE_BODY), status (Statu, RESPONS
+E_BODY), error (Error, RESPONSE_BODY), detail (Detail, RESPONSE_BODY)]
+10:11:14.295 [main] DEBUG io.resttestgen.core.openapi.Operation - Fetching operation POST /key
+10:11:14.296 [main] DEBUG io.resttestgen.core.openapi.Operation -       PathParams: []
+10:11:14.296 [main] DEBUG io.resttestgen.core.openapi.Operation -       QueryParams: []
+10:11:14.296 [main] DEBUG io.resttestgen.core.openapi.Operation -       HeaderParams: []
+10:11:14.297 [main] DEBUG io.resttestgen.core.openapi.Operation -       CookieParams: []
+10:11:14.297 [main] DEBUG io.resttestgen.core.openapi.Operation -       RequestBody: null
+10:11:14.297 [main] DEBUG io.resttestgen.core.openapi.Operation -       OutputParams: {default=: {detail (Detail, RESPONSE_BODY), error (Error, RESPONSE_BODY), title (Ti
+tl, RESPONSE_BODY), type (Type, RESPONSE_BODY)}, 201=: {secret (Secret, RESPONSE_BODY), status (Statu, RESPONSE_BODY)}, 409=: {detail (Detail, RESPONSE_BODY), error (Err
+or, RESPONSE_BODY), title (Titl, RESPONSE_BODY), type (Type, RESPONSE_BODY)}}
+10:11:14.297 [main] DEBUG io.resttestgen.core.openapi.Operation -       OutputParamsSet: [detail (Detail, RESPONSE_BODY), type (Type, RESPONSE_BODY), status (Statu, RESP
+ONSE_BODY), secret (Secret, RESPONSE_BODY), error (Error, RESPONSE_BODY), title (Titl, RESPONSE_BODY)]
+10:11:14.297 [main] DEBUG io.resttestgen.core.openapi.Operation - Fetching operation DELETE /key/{PK}
+10:11:14.298 [main] DEBUG io.resttestgen.core.openapi.Operation -       PathParams: [PK (PK, PATH)]
+10:11:14.298 [main] DEBUG io.resttestgen.core.openapi.Operation -       QueryParams: [secret (Secret, QUERY)]
+10:11:14.299 [main] DEBUG io.resttestgen.core.openapi.Operation -       HeaderParams: []
+10:11:14.299 [main] DEBUG io.resttestgen.core.openapi.Operation -       CookieParams: []
+10:11:14.299 [main] DEBUG io.resttestgen.core.openapi.Operation -       RequestBody: null
+10:11:14.299 [main] DEBUG io.resttestgen.core.openapi.Operation -       OutputParams: {200=: {status (Statu, RESPONSE_BODY)}, default=: {detail (Detail, RESPONSE_BODY), 
+error (Error, RESPONSE_BODY), title (Titl, RESPONSE_BODY), type (Type, RESPONSE_BODY)}, 401=: {detail (Detail, RESPONSE_BODY), error (Error, RESPONSE_BODY), title (Titl,
+ RESPONSE_BODY), type (Type, RESPONSE_BODY)}, 404=: {detail (Detail, RESPONSE_BODY), error (Error, RESPONSE_BODY), title (Titl, RESPONSE_BODY), type (Type, RESPONSE_BODY
+)}}
+10:11:14.299 [main] DEBUG io.resttestgen.core.openapi.Operation -       OutputParamsSet: [type (Type, RESPONSE_BODY), status (Statu, RESPONSE_BODY), detail (Detail, RESP
+ONSE_BODY), error (Error, RESPONSE_BODY), title (Titl, RESPONSE_BODY)]
+10:11:14.299 [main] DEBUG io.resttestgen.core.openapi.Operation - Fetching operation GET /key/{PK}
+10:11:14.300 [main] DEBUG io.resttestgen.core.openapi.Operation -       PathParams: [PK (PK, PATH)]
+10:11:14.300 [main] DEBUG io.resttestgen.core.openapi.Operation -       QueryParams: []
+10:11:14.300 [main] DEBUG io.resttestgen.core.openapi.Operation -       HeaderParams: []
+10:11:14.300 [main] DEBUG io.resttestgen.core.openapi.Operation -       CookieParams: []
+10:11:14.300 [main] DEBUG io.resttestgen.core.openapi.Operation -       RequestBody: null
+10:11:14.301 [main] DEBUG io.resttestgen.core.openapi.Operation -       OutputParams: {200=: {since (Sinc, RESPONSE_BODY), status (Statu, RESPONSE_BODY), sub (Sub, RESPO
+NSE_BODY)}, default=: {detail (Detail, RESPONSE_BODY), error (Error, RESPONSE_BODY), title (Titl, RESPONSE_BODY), type (Type, RESPONSE_BODY)}, 410=: {detail (Detail, RES
+PONSE_BODY), error (Error, RESPONSE_BODY), title (Titl, RESPONSE_BODY), type (Type, RESPONSE_BODY)}, 404=: {detail (Detail, RESPONSE_BODY), error (Error, RESPONSE_BODY),
+ title (Titl, RESPONSE_BODY), type (Type, RESPONSE_BODY)}}
+10:11:14.301 [main] DEBUG io.resttestgen.core.openapi.Operation -       OutputParamsSet: [title (Titl, RESPONSE_BODY), detail (Detail, RESPONSE_BODY), error (Error, RESP
+ONSE_BODY), since (Sinc, RESPONSE_BODY), status (Statu, RESPONSE_BODY), sub (Sub, RESPONSE_BODY), type (Type, RESPONSE_BODY)]
+10:11:14.301 [main] DEBUG io.resttestgen.core.openapi.Operation - Fetching operation HEAD /key/{PK}
+10:11:14.302 [main] DEBUG io.resttestgen.core.openapi.Operation -       PathParams: [PK (PK, PATH)]
+10:11:14.302 [main] DEBUG io.resttestgen.core.openapi.Operation -       QueryParams: []
+10:11:14.302 [main] DEBUG io.resttestgen.core.openapi.Operation -       HeaderParams: []
+10:11:14.302 [main] DEBUG io.resttestgen.core.openapi.Operation -       CookieParams: []
+10:11:14.302 [main] DEBUG io.resttestgen.core.openapi.Operation -       RequestBody: null
+10:11:14.302 [main] DEBUG io.resttestgen.core.openapi.Operation -       OutputParams: {default=: {detail (Detail, RESPONSE_BODY), error (Error, RESPONSE_BODY), title (Ti
+tl, RESPONSE_BODY), type (Type, RESPONSE_BODY)}, 410=: {detail (Detail, RESPONSE_BODY), error (Error, RESPONSE_BODY), title (Titl, RESPONSE_BODY), type (Type, RESPONSE_B
+ODY)}, 404=: {detail (Detail, RESPONSE_BODY), error (Error, RESPONSE_BODY), title (Titl, RESPONSE_BODY), type (Type, RESPONSE_BODY)}}
+10:11:14.302 [main] DEBUG io.resttestgen.core.openapi.Operation -       OutputParamsSet: [type (Type, RESPONSE_BODY), title (Titl, RESPONSE_BODY), error (Error, RESPONSE
+_BODY), detail (Detail, RESPONSE_BODY)]
+10:11:14.302 [main] DEBUG io.resttestgen.core.openapi.Operation - Fetching operation POST /key/{PK}
+10:11:14.303 [main] DEBUG io.resttestgen.core.openapi.Operation -       PathParams: [PK (PK, PATH)]
+10:11:14.303 [main] DEBUG io.resttestgen.core.openapi.Operation -       QueryParams: []
+10:11:14.303 [main] DEBUG io.resttestgen.core.openapi.Operation -       HeaderParams: []
+10:11:14.303 [main] DEBUG io.resttestgen.core.openapi.Operation -       CookieParams: []
+10:11:14.303 [main] DEBUG io.resttestgen.core.openapi.Operation -       RequestBody: null
+10:11:14.304 [main] DEBUG io.resttestgen.core.openapi.Operation -       OutputParams: {200=: {status (Statu, RESPONSE_BODY)}, default=: {detail (Detail, RESPONSE_BODY), 
+error (Error, RESPONSE_BODY), title (Titl, RESPONSE_BODY), type (Type, RESPONSE_BODY)}, 404=: {detail (Detail, RESPONSE_BODY), error (Error, RESPONSE_BODY), title (Titl,
+ RESPONSE_BODY), type (Type, RESPONSE_BODY)}}
+10:11:14.304 [main] DEBUG io.resttestgen.core.openapi.Operation -       OutputParamsSet: [error (Error, RESPONSE_BODY), detail (Detail, RESPONSE_BODY), type (Type, RESPO
+NSE_BODY), status (Statu, RESPONSE_BODY), title (Titl, RESPONSE_BODY)]
+10:11:14.304 [main] DEBUG io.resttestgen.core.openapi.Operation - Fetching operation PUT /key/{PK}
+10:11:14.305 [main] DEBUG io.resttestgen.core.openapi.Operation -       PathParams: [PK (PK, PATH)]
+10:11:14.305 [main] DEBUG io.resttestgen.core.openapi.Operation -       QueryParams: []
+10:11:14.305 [main] DEBUG io.resttestgen.core.openapi.Operation -       HeaderParams: []
+10:11:14.305 [main] DEBUG io.resttestgen.core.openapi.Operation -       CookieParams: []
+10:11:14.305 [main] DEBUG io.resttestgen.core.openapi.Operation -       RequestBody: null
+10:11:14.305 [main] DEBUG io.resttestgen.core.openapi.Operation -       OutputParams: {200=: {status (Statu, RESPONSE_BODY)}, default=: {detail (Detail, RESPONSE_BODY), 
+error (Error, RESPONSE_BODY), title (Titl, RESPONSE_BODY), type (Type, RESPONSE_BODY)}, 404=: {detail (Detail, RESPONSE_BODY), error (Error, RESPONSE_BODY), title (Titl,
+ RESPONSE_BODY), type (Type, RESPONSE_BODY)}, 409=: {detail (Detail, RESPONSE_BODY), error (Error, RESPONSE_BODY), title (Titl, RESPONSE_BODY), type (Type, RESPONSE_BODY
+)}}
+10:11:14.305 [main] DEBUG io.resttestgen.core.openapi.Operation -       OutputParamsSet: [status (Statu, RESPONSE_BODY), title (Titl, RESPONSE_BODY), type (Type, RESPONS
+E_BODY), detail (Detail, RESPONSE_BODY), error (Error, RESPONSE_BODY)]
+10:11:14.305 [main] DEBUG io.resttestgen.core.openapi.Operation - Fetching operation POST /login
+10:11:14.306 [main] DEBUG io.resttestgen.core.openapi.Operation -       PathParams: []
+10:11:14.306 [main] DEBUG io.resttestgen.core.openapi.Operation -       QueryParams: [callback (Callback, QUERY)]
+10:11:14.307 [main] DEBUG io.resttestgen.core.openapi.Operation -       HeaderParams: []
+10:11:14.307 [main] DEBUG io.resttestgen.core.openapi.Operation -       CookieParams: []
+10:11:14.307 [main] DEBUG io.resttestgen.core.openapi.Operation -       RequestBody: null
+10:11:14.307 [main] DEBUG io.resttestgen.core.openapi.Operation -       OutputParams: {200=: {status (Statu, RESPONSE_BODY)}, default=: {detail (Detail, RESPONSE_BODY), 
+error (Error, RESPONSE_BODY), title (Titl, RESPONSE_BODY), type (Type, RESPONSE_BODY)}, 401=: {detail (Detail, RESPONSE_BODY), error (Error, RESPONSE_BODY), title (Titl,
+ RESPONSE_BODY), type (Type, RESPONSE_BODY)}}
+10:11:14.307 [main] DEBUG io.resttestgen.core.openapi.Operation -       OutputParamsSet: [detail (Detail, RESPONSE_BODY), error (Error, RESPONSE_BODY), title (Titl, RESP
+ONSE_BODY), status (Statu, RESPONSE_BODY), type (Type, RESPONSE_BODY)]
+10:11:14.307 [main] DEBUG io.resttestgen.core.openapi.Operation - Fetching operation POST /scope
+10:11:14.308 [main] DEBUG io.resttestgen.core.openapi.Operation -       PathParams: []
+10:11:14.308 [main] DEBUG io.resttestgen.core.openapi.Operation -       QueryParams: [test (Test, QUERY)]
+10:11:14.308 [main] DEBUG io.resttestgen.core.openapi.Operation -       HeaderParams: []
+10:11:14.308 [main] DEBUG io.resttestgen.core.openapi.Operation -       CookieParams: []
+10:11:14.308 [main] DEBUG io.resttestgen.core.openapi.Operation -       RequestBody: null
+10:11:14.308 [main] DEBUG io.resttestgen.core.openapi.Operation -       OutputParams: {default=: {detail (Detail, RESPONSE_BODY), error (Error, RESPONSE_BODY), title (Ti
+tl, RESPONSE_BODY), type (Type, RESPONSE_BODY)}, 201=: {job (Job, RESPONSE_BODY), status (Statu, RESPONSE_BODY)}, 429=: {detail (Detail, RESPONSE_BODY), error (Error, RE
+SPONSE_BODY), title (Titl, RESPONSE_BODY), type (Type, RESPONSE_BODY)}}
+10:11:14.308 [main] DEBUG io.resttestgen.core.openapi.Operation -       OutputParamsSet: [status (Statu, RESPONSE_BODY), job (Job, RESPONSE_BODY), detail (Detail, RESPON
+SE_BODY), error (Error, RESPONSE_BODY), title (Titl, RESPONSE_BODY), type (Type, RESPONSE_BODY)]
+10:11:14.308 [main] DEBUG io.resttestgen.core.openapi.Operation - Fetching operation DELETE /scope/{job}
+10:11:14.309 [main] DEBUG io.resttestgen.core.openapi.Operation -       PathParams: [job (Job, PATH)]
+10:11:14.309 [main] DEBUG io.resttestgen.core.openapi.Operation -       QueryParams: []
+10:11:14.309 [main] DEBUG io.resttestgen.core.openapi.Operation -       HeaderParams: []
+10:11:14.309 [main] DEBUG io.resttestgen.core.openapi.Operation -       CookieParams: []
+10:11:14.309 [main] DEBUG io.resttestgen.core.openapi.Operation -       RequestBody: null
+10:11:14.309 [main] DEBUG io.resttestgen.core.openapi.Operation -       OutputParams: {200=: {status (Statu, RESPONSE_BODY)}, default=: {detail (Detail, RESPONSE_BODY), 
+error (Error, RESPONSE_BODY), title (Titl, RESPONSE_BODY), type (Type, RESPONSE_BODY)}, 404=: {detail (Detail, RESPONSE_BODY), error (Error, RESPONSE_BODY), title (Titl,
+ RESPONSE_BODY), type (Type, RESPONSE_BODY)}}
+10:11:14.309 [main] DEBUG io.resttestgen.core.openapi.Operation -       OutputParamsSet: [detail (Detail, RESPONSE_BODY), error (Error, RESPONSE_BODY), status (Statu, RE
+SPONSE_BODY), type (Type, RESPONSE_BODY), title (Titl, RESPONSE_BODY)]
+10:11:14.309 [main] DEBUG io.resttestgen.core.openapi.Operation - Fetching operation GET /scope/{job}
+10:11:14.310 [main] DEBUG io.resttestgen.core.openapi.Operation -       PathParams: [job (Job, PATH)]
+10:11:14.310 [main] DEBUG io.resttestgen.core.openapi.Operation -       QueryParams: []
+10:11:14.310 [main] DEBUG io.resttestgen.core.openapi.Operation -       HeaderParams: []
+10:11:14.310 [main] DEBUG io.resttestgen.core.openapi.Operation -       CookieParams: []
+10:11:14.310 [main] DEBUG io.resttestgen.core.openapi.Operation -       RequestBody: null
+10:11:14.310 [main] DEBUG io.resttestgen.core.openapi.Operation -       OutputParams: {200=: {exp (Exp, RESPONSE_BODY), field (Field, RESPONSE_BODY), sub (Sub, RESPONSE_
+BODY)}, default=: {detail (Detail, RESPONSE_BODY), error (Error, RESPONSE_BODY), title (Titl, RESPONSE_BODY), type (Type, RESPONSE_BODY)}, 404=: {detail (Detail, RESPONS
+E_BODY), error (Error, RESPONSE_BODY), title (Titl, RESPONSE_BODY), type (Type, RESPONSE_BODY)}}
+10:11:14.310 [main] DEBUG io.resttestgen.core.openapi.Operation -       OutputParamsSet: [title (Titl, RESPONSE_BODY), type (Type, RESPONSE_BODY), sub (Sub, RESPONSE_BOD
+Y), field (Field, RESPONSE_BODY), exp (Exp, RESPONSE_BODY), error (Error, RESPONSE_BODY), detail (Detail, RESPONSE_BODY)]
+10:11:14.310 [main] DEBUG io.resttestgen.core.openapi.Operation - Fetching operation HEAD /scope/{job}
+10:11:14.311 [main] DEBUG io.resttestgen.core.openapi.Operation -       PathParams: [job (Job, PATH)]
+10:11:14.311 [main] DEBUG io.resttestgen.core.openapi.Operation -       QueryParams: []
+10:11:14.311 [main] DEBUG io.resttestgen.core.openapi.Operation -       HeaderParams: []
+10:11:14.311 [main] DEBUG io.resttestgen.core.openapi.Operation -       CookieParams: []
+10:11:14.311 [main] DEBUG io.resttestgen.core.openapi.Operation -       RequestBody: null
+10:11:14.311 [main] DEBUG io.resttestgen.core.openapi.Operation -       OutputParams: {default=: {detail (Detail, RESPONSE_BODY), error (Error, RESPONSE_BODY), title (Ti
+tl, RESPONSE_BODY), type (Type, RESPONSE_BODY)}, 404=: {detail (Detail, RESPONSE_BODY), error (Error, RESPONSE_BODY), title (Titl, RESPONSE_BODY), type (Type, RESPONSE_B
+ODY)}}
+10:11:14.311 [main] DEBUG io.resttestgen.core.openapi.Operation -       OutputParamsSet: [detail (Detail, RESPONSE_BODY), error (Error, RESPONSE_BODY), title (Titl, RESP
+ONSE_BODY), type (Type, RESPONSE_BODY)]
+10:11:14.311 [main] DEBUG io.resttestgen.core.openapi.Operation - Fetching operation POST /scope/{job}
+10:11:14.312 [main] DEBUG io.resttestgen.core.openapi.Operation -       PathParams: [job (Job, PATH)]
+10:11:14.312 [main] DEBUG io.resttestgen.core.openapi.Operation -       QueryParams: []
+10:11:14.312 [main] DEBUG io.resttestgen.core.openapi.Operation -       HeaderParams: []
+10:11:14.312 [main] DEBUG io.resttestgen.core.openapi.Operation -       CookieParams: []
+10:11:14.312 [main] DEBUG io.resttestgen.core.openapi.Operation -       RequestBody: null
+10:11:14.312 [main] DEBUG io.resttestgen.core.openapi.Operation -       OutputParams: {default=: {detail (Detail, RESPONSE_BODY), error (Error, RESPONSE_BODY), title (Ti
+tl, RESPONSE_BODY), type (Type, RESPONSE_BODY)}, 202=: {status (Statu, RESPONSE_BODY)}, 401=: {detail (Detail, RESPONSE_BODY), error (Error, RESPONSE_BODY), title (Titl,
+ RESPONSE_BODY), type (Type, RESPONSE_BODY)}, 404=: {detail (Detail, RESPONSE_BODY), error (Error, RESPONSE_BODY), title (Titl, RESPONSE_BODY), type (Type, RESPONSE_BODY
+)}, 405=: {detail (Detail, RESPONSE_BODY), error (Error, RESPONSE_BODY), title (Titl, RESPONSE_BODY), type (Type, RESPONSE_BODY)}}
+10:11:14.313 [main] DEBUG io.resttestgen.core.openapi.Operation -       OutputParamsSet: [error (Error, RESPONSE_BODY), title (Titl, RESPONSE_BODY), detail (Detail, RESP
+ONSE_BODY), status (Statu, RESPONSE_BODY), type (Type, RESPONSE_BODY)]
+10:11:14.313 [main] DEBUG io.resttestgen.core.openapi.Operation - Fetching operation PUT /scope/{job}
+10:11:14.313 [main] DEBUG io.resttestgen.core.openapi.Operation -       PathParams: [job (Job, PATH)]
+10:11:14.313 [main] DEBUG io.resttestgen.core.openapi.Operation -       QueryParams: []
+10:11:14.314 [main] DEBUG io.resttestgen.core.openapi.Operation -       HeaderParams: []
+10:11:14.314 [main] DEBUG io.resttestgen.core.openapi.Operation -       CookieParams: []
+10:11:14.314 [main] DEBUG io.resttestgen.core.openapi.Operation -       RequestBody: null
+10:11:14.314 [main] DEBUG io.resttestgen.core.openapi.Operation -       OutputParams: {default=: {detail (Detail, RESPONSE_BODY), error (Error, RESPONSE_BODY), title (Ti
+tl, RESPONSE_BODY), type (Type, RESPONSE_BODY)}}
+10:11:14.314 [main] DEBUG io.resttestgen.core.openapi.Operation -       OutputParamsSet: [type (Type, RESPONSE_BODY), title (Titl, RESPONSE_BODY), error (Error, RESPONSE
+_BODY), detail (Detail, RESPONSE_BODY)]
+10:11:14.314 [main] INFO  io.resttestgen.core.openapi.OpenAPIParser - Specification parsed.
+10:11:14.323 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Collecting operations from OpenAPI specification.
+10:11:14.325 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Extracting data dependencies from OpenAPI specification.
+10:11:14.330 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /scope -> GET /key/{PK}: []
+10:11:14.331 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /scope -> DELETE /key: []
+10:11:14.331 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /scope -> DELETE /key/{PK}: []
+10:11:14.331 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /scope -> PUT /key/{PK}: []
+10:11:14.332 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /scope -> HEAD /scope/{job}: [Job]
+10:11:14.332 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /scope -> POST /login: []
+10:11:14.332 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /scope -> POST /key/{PK}: []
+10:11:14.332 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /scope -> POST /scope/{job}: [Job]
+10:11:14.333 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /scope -> PUT /scope/{job}: [Job]
+10:11:14.333 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /scope -> DELETE /scope/{job}: [Job]
+10:11:14.333 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /scope -> HEAD /key/{PK}: []
+10:11:14.333 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /scope -> GET /scope/{job}: [Job]
+10:11:14.333 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for GET /key/{PK} -> POST /scope: []
+10:11:14.334 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for GET /key/{PK} -> DELETE /key: []
+10:11:14.334 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for GET /key/{PK} -> DELETE /key/{PK}: []
+10:11:14.334 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for GET /key/{PK} -> PUT /key/{PK}: []
+10:11:14.334 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for GET /key/{PK} -> HEAD /scope/{job}: []
+10:11:14.334 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for GET /key/{PK} -> POST /login: []
+10:11:14.334 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for GET /key/{PK} -> POST /key/{PK}: []
+10:11:14.334 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for GET /key/{PK} -> POST /scope/{job}: []
+10:11:14.334 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for GET /key/{PK} -> PUT /scope/{job}: []
+10:11:14.334 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for GET /key/{PK} -> DELETE /scope/{job}: []
+10:11:14.334 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for GET /key/{PK} -> HEAD /key/{PK}: []
+10:11:14.335 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for GET /key/{PK} -> GET /scope/{job}: []
+10:11:14.335 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for DELETE /key -> POST /scope: []
+10:11:14.335 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for DELETE /key -> GET /key/{PK}: []
+10:11:14.335 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for DELETE /key -> DELETE /key/{PK}: []
+10:11:14.335 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for DELETE /key -> PUT /key/{PK}: []
+10:11:14.335 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for DELETE /key -> HEAD /scope/{job}: []
+10:11:14.335 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for DELETE /key -> POST /login: []
+10:11:14.335 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for DELETE /key -> POST /key/{PK}: []
+10:11:14.335 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for DELETE /key -> POST /scope/{job}: []
+10:11:14.335 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for DELETE /key -> PUT /scope/{job}: []
+10:11:14.336 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for DELETE /key -> DELETE /scope/{job}: []
+10:11:14.336 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for DELETE /key -> HEAD /key/{PK}: []
+10:11:14.336 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for DELETE /key -> GET /scope/{job}: []
+10:11:14.336 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for DELETE /key/{PK} -> POST /scope: []
+10:11:14.336 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for DELETE /key/{PK} -> GET /key/{PK}: []
+10:11:14.336 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for DELETE /key/{PK} -> DELETE /key: []
+10:11:14.336 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for DELETE /key/{PK} -> PUT /key/{PK}: []
+10:11:14.336 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for DELETE /key/{PK} -> HEAD /scope/{job}: []
+10:11:14.336 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for DELETE /key/{PK} -> POST /login: []
+10:11:14.336 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for DELETE /key/{PK} -> POST /key/{PK}: []
+10:11:14.336 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for DELETE /key/{PK} -> POST /scope/{job}: []
+10:11:14.337 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for DELETE /key/{PK} -> PUT /scope/{job}: []
+10:11:14.337 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for DELETE /key/{PK} -> DELETE /scope/{job}: []
+10:11:14.337 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for DELETE /key/{PK} -> HEAD /key/{PK}: []
+10:11:14.337 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for DELETE /key/{PK} -> GET /scope/{job}: []
+10:11:14.337 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /key -> POST /scope: []
+10:11:14.337 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /key -> GET /key/{PK}: []
+10:11:14.337 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /key -> DELETE /key: []
+10:11:14.337 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /key -> DELETE /key/{PK}: [Secret]
+10:11:14.337 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /key -> PUT /key/{PK}: []
+10:11:14.337 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /key -> HEAD /scope/{job}: []
+10:11:14.337 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /key -> POST /login: []
+10:11:14.338 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /key -> POST /key/{PK}: []
+10:11:14.338 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /key -> POST /scope/{job}: []
+10:11:14.338 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /key -> PUT /scope/{job}: []
+10:11:14.338 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /key -> DELETE /scope/{job}: []
+10:11:14.338 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /key -> HEAD /key/{PK}: []
+10:11:14.338 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /key -> GET /scope/{job}: []
+10:11:14.338 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for PUT /key/{PK} -> POST /scope: []
+10:11:14.338 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for PUT /key/{PK} -> GET /key/{PK}: []
+10:11:14.338 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for PUT /key/{PK} -> DELETE /key: []
+10:11:14.338 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for PUT /key/{PK} -> DELETE /key/{PK}: []
+10:11:14.338 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for PUT /key/{PK} -> HEAD /scope/{job}: []
+10:11:14.338 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for PUT /key/{PK} -> POST /login: []
+10:11:14.338 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for PUT /key/{PK} -> POST /key/{PK}: []
+10:11:14.339 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for PUT /key/{PK} -> POST /scope/{job}: []
+10:11:14.339 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for PUT /key/{PK} -> PUT /scope/{job}: []
+10:11:14.339 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for PUT /key/{PK} -> DELETE /scope/{job}: []
+10:11:14.339 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for PUT /key/{PK} -> HEAD /key/{PK}: []
+10:11:14.339 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for PUT /key/{PK} -> GET /scope/{job}: []
+10:11:14.339 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for HEAD /scope/{job} -> POST /scope: []
+10:11:14.339 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for HEAD /scope/{job} -> GET /key/{PK}: []
+10:11:14.339 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for HEAD /scope/{job} -> DELETE /key: []
+10:11:14.339 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for HEAD /scope/{job} -> DELETE /key/{PK}: []
+10:11:14.339 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for HEAD /scope/{job} -> PUT /key/{PK}: []
+10:11:14.339 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for HEAD /scope/{job} -> POST /login: []
+10:11:14.339 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for HEAD /scope/{job} -> POST /key/{PK}: []
+10:11:14.339 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for HEAD /scope/{job} -> POST /scope/{job}: []
+10:11:14.339 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for HEAD /scope/{job} -> PUT /scope/{job}: []
+10:11:14.340 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for HEAD /scope/{job} -> DELETE /scope/{job}: []
+10:11:14.340 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for HEAD /scope/{job} -> HEAD /key/{PK}: []
+10:11:14.340 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for HEAD /scope/{job} -> GET /scope/{job}: []
+10:11:14.340 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /login -> POST /scope: []
+10:11:14.340 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /login -> GET /key/{PK}: []
+10:11:14.340 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /login -> DELETE /key: []
+10:11:14.340 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /login -> DELETE /key/{PK}: []
+10:11:14.341 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /login -> PUT /key/{PK}: []
+10:11:14.341 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /login -> HEAD /scope/{job}: []
+10:11:14.341 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /login -> POST /key/{PK}: []
+10:11:14.341 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /login -> POST /scope/{job}: []
+10:11:14.341 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /login -> PUT /scope/{job}: []
+10:11:14.341 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /login -> DELETE /scope/{job}: []
+10:11:14.341 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /login -> HEAD /key/{PK}: []
+10:11:14.341 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /login -> GET /scope/{job}: []
+10:11:14.341 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /key/{PK} -> POST /scope: []
+10:11:14.342 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /key/{PK} -> GET /key/{PK}: []
+10:11:14.342 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /key/{PK} -> DELETE /key: []
+10:11:14.342 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /key/{PK} -> DELETE /key/{PK}: []
+10:11:14.342 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /key/{PK} -> PUT /key/{PK}: []
+10:11:14.342 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /key/{PK} -> HEAD /scope/{job}: []
+10:11:14.342 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /key/{PK} -> POST /login: []
+10:11:14.342 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /key/{PK} -> POST /scope/{job}: []
+10:11:14.342 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /key/{PK} -> PUT /scope/{job}: []
+10:11:14.342 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /key/{PK} -> DELETE /scope/{job}: []
+10:11:14.343 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /key/{PK} -> HEAD /key/{PK}: []
+10:11:14.343 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /key/{PK} -> GET /scope/{job}: []
+10:11:14.343 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /scope/{job} -> POST /scope: []
+10:11:14.343 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /scope/{job} -> GET /key/{PK}: []
+10:11:14.343 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /scope/{job} -> DELETE /key: []
+10:11:14.343 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /scope/{job} -> DELETE /key/{PK}: []
+10:11:14.343 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /scope/{job} -> PUT /key/{PK}: []
+10:11:14.343 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /scope/{job} -> HEAD /scope/{job}: []
+10:11:14.343 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /scope/{job} -> POST /login: []
+10:11:14.343 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /scope/{job} -> POST /key/{PK}: []
+10:11:14.344 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /scope/{job} -> PUT /scope/{job}: []
+10:11:14.344 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /scope/{job} -> DELETE /scope/{job}: []
+10:11:14.344 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /scope/{job} -> HEAD /key/{PK}: []
+10:11:14.344 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for POST /scope/{job} -> GET /scope/{job}: []
+10:11:14.344 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for PUT /scope/{job} -> POST /scope: []
+10:11:14.344 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for PUT /scope/{job} -> GET /key/{PK}: []
+10:11:14.344 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for PUT /scope/{job} -> DELETE /key: []
+10:11:14.344 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for PUT /scope/{job} -> DELETE /key/{PK}: []
+10:11:14.344 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for PUT /scope/{job} -> PUT /key/{PK}: []
+10:11:14.345 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for PUT /scope/{job} -> HEAD /scope/{job}: []
+10:11:14.345 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for PUT /scope/{job} -> POST /login: []
+10:11:14.345 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for PUT /scope/{job} -> POST /key/{PK}: []
+10:11:14.345 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for PUT /scope/{job} -> POST /scope/{job}: []
+10:11:14.345 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for PUT /scope/{job} -> DELETE /scope/{job}: []
+10:11:14.345 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for PUT /scope/{job} -> HEAD /key/{PK}: []
+10:11:14.345 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for PUT /scope/{job} -> GET /scope/{job}: []
+10:11:14.345 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for DELETE /scope/{job} -> POST /scope: []
+10:11:14.345 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for DELETE /scope/{job} -> GET /key/{PK}: []
+10:11:14.345 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for DELETE /scope/{job} -> DELETE /key: []
+10:11:14.346 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for DELETE /scope/{job} -> DELETE /key/{PK}: []
+10:11:14.346 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for DELETE /scope/{job} -> PUT /key/{PK}: []
+10:11:14.346 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for DELETE /scope/{job} -> HEAD /scope/{job}: []
+10:11:14.346 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for DELETE /scope/{job} -> POST /login: []
+10:11:14.346 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for DELETE /scope/{job} -> POST /key/{PK}: []
+10:11:14.346 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for DELETE /scope/{job} -> POST /scope/{job}: []
+10:11:14.346 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for DELETE /scope/{job} -> PUT /scope/{job}: []
+10:11:14.346 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for DELETE /scope/{job} -> HEAD /key/{PK}: []
+10:11:14.346 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for DELETE /scope/{job} -> GET /scope/{job}: []
+10:11:14.346 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for HEAD /key/{PK} -> POST /scope: []
+10:11:14.346 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for HEAD /key/{PK} -> GET /key/{PK}: []
+10:11:14.347 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for HEAD /key/{PK} -> DELETE /key: []
+10:11:14.347 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for HEAD /key/{PK} -> DELETE /key/{PK}: []
+10:11:14.347 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for HEAD /key/{PK} -> PUT /key/{PK}: []
+10:11:14.347 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for HEAD /key/{PK} -> HEAD /scope/{job}: []
+10:11:14.347 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for HEAD /key/{PK} -> POST /login: []
+10:11:14.347 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for HEAD /key/{PK} -> POST /key/{PK}: []
+10:11:14.347 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for HEAD /key/{PK} -> POST /scope/{job}: []
+10:11:14.347 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for HEAD /key/{PK} -> PUT /scope/{job}: []
+10:11:14.347 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for HEAD /key/{PK} -> DELETE /scope/{job}: []
+10:11:14.347 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for HEAD /key/{PK} -> GET /scope/{job}: []
+10:11:14.347 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for GET /scope/{job} -> POST /scope: []
+10:11:14.348 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for GET /scope/{job} -> GET /key/{PK}: []
+10:11:14.348 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for GET /scope/{job} -> DELETE /key: []
+10:11:14.348 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for GET /scope/{job} -> DELETE /key/{PK}: []
+10:11:14.348 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for GET /scope/{job} -> PUT /key/{PK}: []
+10:11:14.348 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for GET /scope/{job} -> HEAD /scope/{job}: []
+10:11:14.348 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for GET /scope/{job} -> POST /login: []
+10:11:14.348 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for GET /scope/{job} -> POST /key/{PK}: []
+10:11:14.348 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for GET /scope/{job} -> POST /scope/{job}: []
+10:11:14.348 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for GET /scope/{job} -> PUT /scope/{job}: []
+10:11:14.348 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for GET /scope/{job} -> DELETE /scope/{job}: []
+10:11:14.348 [main] DEBUG io.resttestgen.core.operationdependencygraph.OperationDependencyGraph - Dependencies for GET /scope/{job} -> HEAD /key/{PK}: []
+10:11:14.366 [main] INFO  io.resttestgen.core.Environment - No authentication defined in the configuration file
+10:11:14.366 [main] INFO  io.resttestgen.core.cli.App - Launching strategy with class name 'NominalAndErrorStrategy'
+10:11:14.397 [main] DEBUG io.resttestgen.implementation.strategy.NominalAndErrorStrategy - Testing operation GET /key/{PK}
+java.lang.reflect.InvocationTargetException
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+        at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+        at io.resttestgen.core.cli.App.main(App.java:73)
+Caused by: java.lang.NumberFormatException: For input string: "default"
+        at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+        at java.base/java.lang.Integer.parseInt(Integer.java:652)
+        at java.base/java.lang.Integer.parseInt(Integer.java:770)
+        at io.resttestgen.core.testing.coverage.StatusCodeCoverage.<init>(StatusCodeCoverage.java:26)
+        at io.resttestgen.core.testing.coverage.CoverageManager.<init>(CoverageManager.java:16)
+        at io.resttestgen.core.testing.TestRunner.<init>(TestRunner.java:48)
+        at io.resttestgen.core.testing.TestRunner.getInstance(TestRunner.java:96)
+        at io.resttestgen.implementation.strategy.NominalAndErrorStrategy.start(NominalAndErrorStrategy.java:41)
+        ... 5 more
+
+BUILD SUCCESSFUL in 1s
+3 actionable tasks: 1 executed, 2 up-to-date
