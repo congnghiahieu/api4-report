@@ -1,0 +1,34 @@
+Restler Information: 0 : Starting task FuzzLean...
+    DateTime=2023-02-21T04:09:06.8502717Z
+Restler Information: 0 : Launching 'python.exe --version'
+    DateTime=2023-02-21T04:09:06.9050397Z
+Restler Information: 0 : Process execution terminated in 00:00:00.0157973 with exit code 0x0: 'python.exe --version'
+    DateTime=2023-02-21T04:09:06.9330146Z
+Restler Information: 0 : (6084) python.exe --version exited with code: 0
+    DateTime=2023-02-21T04:09:06.9370013Z
+Restler Information: 0 : Launching 'python.exe -B "D:\Workspace\apiTesting\restler_bin\restler\../engine/restler.py" --restler_grammar "D:\Workspace\apiTesting\report\Restler\4\Compile\grammar.py" --custom_mutations "D:\Workspace\apiTesting\report\Restler\4\Compile\dict.json" --set_version 9.1.1    --no_ssl   --settings "D:\Workspace\apiTesting\report\Restler\4\Compile\engine_settings.json" --enable_checkers * --disable_checkers namespacerule    --include_user_agent --no_tokens_in_logs t --garbage_collection_interval 30 --fuzzing_mode directed-smoke-test'
+    DateTime=2023-02-21T04:09:06.9456090Z
+Restler Information: 0 : Process execution terminated in 00:07:07.4902466 with exit code 0x0: 'python.exe -B "D:\Workspace\apiTesting\restler_bin\restler\../engine/restler.py" --restler_grammar "D:\Workspace\apiTesting\report\Restler\4\Compile\grammar.py" --custom_mutations "D:\Workspace\apiTesting\report\Restler\4\Compile\dict.json" --set_version 9.1.1    --no_ssl   --settings "D:\Workspace\apiTesting\report\Restler\4\Compile\engine_settings.json" --enable_checkers * --disable_checkers namespacerule    --include_user_agent --no_tokens_in_logs t --garbage_collection_interval 30 --fuzzing_mode directed-smoke-test'
+    DateTime=2023-02-21T04:16:14.4360637Z
+Restler Information: 0 : (8744) python.exe -B "D:\Workspace\apiTesting\restler_bin\restler\../engine/restler.py" --restler_grammar "D:\Workspace\apiTesting\report\Restler\4\Compile\grammar.py" --custom_mutations "D:\Workspace\apiTesting\report\Restler\4\Compile\dict.json" --set_version 9.1.1    --no_ssl   --settings "D:\Workspace\apiTesting\report\Restler\4\Compile\engine_settings.json" --enable_checkers * --disable_checkers namespacerule    --include_user_agent --no_tokens_in_logs t --garbage_collection_interval 30 --fuzzing_mode directed-smoke-test exited with code: 0
+    DateTime=2023-02-21T04:16:14.4363858Z
+Restler Information: 0 : Launching 'dotnet "D:\Workspace\apiTesting\restler_bin\restler\../resultsAnalyzer/Restler.ResultsAnalyzer.dll" analyze "D:\Workspace\apiTesting\report\Restler\4\FuzzLean" --output_dir "D:\Workspace\apiTesting\report\Restler\4\FuzzLean\ResponseBuckets" --dictionary_file "D:\Workspace\apiTesting\report\Restler\4\Compile\dict.json" --max_instances_per_bucket 10'
+    DateTime=2023-02-21T04:16:14.4494389Z
+Restler Information: 0 : Process execution terminated in 00:00:03.5858947 with exit code 0xE0434352: 'dotnet "D:\Workspace\apiTesting\restler_bin\restler\../resultsAnalyzer/Restler.ResultsAnalyzer.dll" analyze "D:\Workspace\apiTesting\report\Restler\4\FuzzLean" --output_dir "D:\Workspace\apiTesting\report\Restler\4\FuzzLean\ResponseBuckets" --dictionary_file "D:\Workspace\apiTesting\report\Restler\4\Compile\dict.json" --max_instances_per_bucket 10'
+    DateTime=2023-02-21T04:16:18.0354416Z
+Restler Information: 0 : (5312) dotnet "D:\Workspace\apiTesting\restler_bin\restler\../resultsAnalyzer/Restler.ResultsAnalyzer.dll" analyze "D:\Workspace\apiTesting\report\Restler\4\FuzzLean" --output_dir "D:\Workspace\apiTesting\report\Restler\4\FuzzLean\ResponseBuckets" --dictionary_file "D:\Workspace\apiTesting\report\Restler\4\Compile\dict.json" --max_instances_per_bucket 10 exited with code: -532462766
+    DateTime=2023-02-21T04:16:18.0356459Z
+Restler Error: 0 : Results analyzer for logs in D:\Workspace\apiTesting\report\Restler\4\FuzzLean failed.
+    DateTime=2023-02-21T04:16:18.0388262Z
+Restler Information: 0 : Request coverage (successful / total): 0 / 14
+    DateTime=2023-02-21T04:16:18.2253519Z
+Restler Information: 0 : Attempted requests: 9 / 14
+    DateTime=2023-02-21T04:16:18.2255812Z
+Restler Information: 0 : No bugs were found.
+    DateTime=2023-02-21T04:16:18.2293354Z
+Restler Information: 0 : See 'coverage_failures_to_investigate.txt.txt' to investigate API coverage.
+    DateTime=2023-02-21T04:16:18.3077405Z
+Restler Information: 0 : Task FuzzLean succeeded.
+    DateTime=2023-02-21T04:16:18.3099161Z
+Restler Information: 0 : Collecting logs...
+    DateTime=2023-02-21T04:16:18.3125248Z

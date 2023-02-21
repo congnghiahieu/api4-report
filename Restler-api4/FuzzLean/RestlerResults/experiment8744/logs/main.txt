@@ -1,0 +1,345 @@
+Setting fuzzing schemes: directed-smoke-test
+2023-02-21 11:09:07.142: Going to fuzz a set with 14 requests
+2023-02-21 11:09:07.142: Request-0: Value Combinations: 2
+2023-02-21 11:09:07.142: Request-1: Value Combinations: 2
+2023-02-21 11:09:07.142: Request-2: Value Combinations: 2
+2023-02-21 11:09:07.142: Request-3: Value Combinations: 2
+2023-02-21 11:09:07.142: Request-4: Value Combinations: 2
+2023-02-21 11:09:07.142: Request-5: Value Combinations: 2
+2023-02-21 11:09:07.142: Request-6: Value Combinations: 2
+2023-02-21 11:09:07.142: Request-7: Value Combinations: 2
+2023-02-21 11:09:07.142: Request-8: Value Combinations: 2
+2023-02-21 11:09:07.142: Request-9: Value Combinations: 2
+2023-02-21 11:09:07.142: Request-10: Value Combinations: 2
+2023-02-21 11:09:07.142: Request-11: Value Combinations: 2
+2023-02-21 11:09:07.142: Request-12: Value Combinations: 2
+2023-02-21 11:09:07.142: Request-13: Value Combinations: 2
+2023-02-21 11:09:07.142: Avg. Value Combinations per Request: 2
+2023-02-21 11:09:07.142: Median Value Combinations per Request: 2.0
+2023-02-21 11:09:07.142: Min Value Combinations per Request: 2
+2023-02-21 11:09:07.142: Max Value Combinations per Request: 2
+2023-02-21 11:09:07.142: Total dependencies: 6
+
+2023-02-21 11:09:07.158: Generation: 1 / Sequences Collection Size: 9 
+(After directed-smoke-test Extend)
+
+Rendering request 0 from scratch
+
+2023-02-21 11:11:04.363: Request 0
+2023-02-21 11:11:04.363: Endpoint - /key
+2023-02-21 11:11:04.363: Hex Def - 03b41982b6f07c7792774ec8be394fe28a8e5310
+2023-02-21 11:11:04.363: Sequence length that satisfies dependencies: 1
+2023-02-21 11:11:04.368: Rendering INVALID
+		- restler_static_string: 'DELETE '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: 'key'
+		- restler_static_string: '?'
+		- restler_static_string: 'email='
+		- restler_fuzzable_string: 'fuzzstring'
+		- restler_static_string: '&'
+		- restler_static_string: 'phone='
+		- restler_fuzzable_string: 'fuzzstring'
+		- restler_static_string: '&'
+		- restler_static_string: 'code='
+		- restler_fuzzable_string: 'fuzzstring'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: 6-dot-authentiqio.appspot.com\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 1 from scratch
+
+2023-02-21 11:12:48.914: Request 1
+2023-02-21 11:12:48.914: Endpoint - /key/{PK}
+2023-02-21 11:12:48.914: Hex Def - 0edb6dbb6893bbde24377e11bd09dc7a1ba7f820
+2023-02-21 11:12:48.914: Sequence length that satisfies dependencies: 1
+2023-02-21 11:12:48.917: Rendering INVALID
+		- restler_static_string: 'DELETE '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: 'key'
+		- restler_static_string: '/'
+		- restler_fuzzable_string: 'fuzzstring'
+		- restler_static_string: '?'
+		- restler_static_string: 'secret='
+		- restler_fuzzable_string: 'fuzzstring'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: 6-dot-authentiqio.appspot.com\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 2 from scratch
+
+2023-02-21 11:12:49.703: Request 2
+2023-02-21 11:12:49.703: Endpoint - /key
+2023-02-21 11:12:49.703: Hex Def - 248f464487e01cec073f1dba82cbf213cb41f659
+2023-02-21 11:12:49.703: Sequence length that satisfies dependencies: 1
+2023-02-21 11:12:49.703: Rendering INVALID
+		- restler_static_string: 'POST '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: 'key'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: 6-dot-authentiqio.appspot.com\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 3 from scratch
+
+2023-02-21 11:13:16.604: Request 3
+2023-02-21 11:13:16.604: Endpoint - /key/{PK}
+2023-02-21 11:13:16.604: Hex Def - 2ace20dd4c811095530c1022fafe6030b53abc03
+2023-02-21 11:13:16.604: Sequence length that satisfies dependencies: 1
+2023-02-21 11:13:16.604: Rendering INVALID
+		- restler_static_string: 'POST '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: 'key'
+		- restler_static_string: '/'
+		- restler_fuzzable_string: 'fuzzstring'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: 6-dot-authentiqio.appspot.com\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 4 from scratch
+
+2023-02-21 11:13:47.933: Request 4
+2023-02-21 11:13:47.933: Endpoint - /key/{PK}
+2023-02-21 11:13:47.933: Hex Def - 3041b4320201c442a6bc26cf047324d6e7c4c06e
+2023-02-21 11:13:47.933: Sequence length that satisfies dependencies: 1
+2023-02-21 11:13:47.948: Rendering INVALID
+		- restler_static_string: 'GET '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: 'key'
+		- restler_static_string: '/'
+		- restler_fuzzable_string: 'fuzzstring'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: 6-dot-authentiqio.appspot.com\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 5 from scratch
+
+2023-02-21 11:14:13.802: Request 5
+2023-02-21 11:14:13.802: Endpoint - /scope
+2023-02-21 11:14:13.802: Hex Def - 69396f0d63913b3acb552db707ecc83e86333caa
+2023-02-21 11:14:13.802: Sequence length that satisfies dependencies: 1
+2023-02-21 11:14:13.802: Rendering INVALID
+		- restler_static_string: 'POST '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: 'scope'
+		- restler_static_string: '?'
+		- restler_static_string: 'test='
+		- restler_fuzzable_int: '1'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: 6-dot-authentiqio.appspot.com\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 6 from scratch
+
+2023-02-21 11:14:45.653: Request 6
+2023-02-21 11:14:45.653: Endpoint - /key/{PK}
+2023-02-21 11:14:45.653: Hex Def - 7b3f2177668937a80a7f18b82a94efbfd45342d6
+2023-02-21 11:14:45.653: Sequence length that satisfies dependencies: 1
+2023-02-21 11:14:45.669: Rendering INVALID
+		- restler_static_string: 'PUT '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: 'key'
+		- restler_static_string: '/'
+		- restler_custom_payload_uuid4_suffix: 'p'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: 6-dot-authentiqio.appspot.com\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 7 from scratch
+
+2023-02-21 11:15:13.020: Request 7
+2023-02-21 11:15:13.020: Endpoint - /key/{PK}
+2023-02-21 11:15:13.020: Hex Def - bfdb6348aaa1ae222304cd39ed7775bbfbb178bd
+2023-02-21 11:15:13.020: Sequence length that satisfies dependencies: 1
+2023-02-21 11:15:13.020: Rendering INVALID
+		- restler_static_string: 'HEAD '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: 'key'
+		- restler_static_string: '/'
+		- restler_fuzzable_string: 'fuzzstring'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: 6-dot-authentiqio.appspot.com\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Rendering request 8 from scratch
+
+2023-02-21 11:16:14.109: Request 8
+2023-02-21 11:16:14.109: Endpoint - /login
+2023-02-21 11:16:14.109: Hex Def - fec1a4c014ef66dc820f21ce197999778891552f
+2023-02-21 11:16:14.109: Sequence length that satisfies dependencies: 1
+2023-02-21 11:16:14.109: Rendering INVALID
+		- restler_static_string: 'POST '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: 'login'
+		- restler_static_string: '?'
+		- restler_static_string: 'callback='
+		- restler_fuzzable_string: 'fuzzstring'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: 6-dot-authentiqio.appspot.com\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+2023-02-21 11:16:14.124: Generation: 1 / Sequences Collection Size: 0 
+(After directed-smoke-test Render)
+
+2023-02-21 11:16:14.124: Final Swagger spec coverage: 0 / 14
+2023-02-21 11:16:14.124: Rendered requests: 9 / 14
+2023-02-21 11:16:14.124: Rendered requests with "valid" status codes: 0 / 9
+2023-02-21 11:16:14.124: Num fully valid requests (no resource creation failures): 0
+2023-02-21 11:16:14.124: Num requests not rendered due to invalid sequence re-renders: 0
+2023-02-21 11:16:14.124: Num invalid requests caused by failed resource creations: 0
+2023-02-21 11:16:14.124: Total Creations of Dyn Objects: 0
+2023-02-21 11:16:14.124: Total Requests Sent: {'gc': 0, 'main_driver': 18, 'LeakageRuleChecker': 0, 'ResourceHierarchyChecker': 0, 'UseAfterFreeChecker': 0, 'InvalidDynamicObjectChecker': 0, 'PayloadBodyChecker': 0, 'ExamplesChecker': 0, 'InvalidValueChecker': 0}
+2023-02-21 11:16:14.124: Bug Buckets: {}
+2023-02-21 11:16:14.140: Generation: 2 / Sequences Collection Size: 5 
+(After directed-smoke-test Extend)
+
+Found a matching prefix of length 1 for request 9 with previous request 5
+	but that prefix was INVALID (root = 5)
+
+2023-02-21 11:16:14.156: Request 9
+2023-02-21 11:16:14.156: Endpoint - /scope/{job}
+2023-02-21 11:16:14.156: Hex Def - 23857c15a702ab001572d6096c252fea844b3d9b
+2023-02-21 11:16:14.156: Sequence length that satisfies dependencies: 2
+2023-02-21 11:16:14.156: Rendering INVALID
+		- restler_static_string: 'HEAD '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: 'scope'
+		- restler_static_string: '/'
+		- restler_static_string: '_READER_DELIM_scope_post_job_READER_DELIM'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: 6-dot-authentiqio.appspot.com\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Found a matching prefix of length 1 for request 10 with previous request 5
+	but that prefix was INVALID (root = 5)
+
+2023-02-21 11:16:14.187: Request 10
+2023-02-21 11:16:14.187: Endpoint - /scope/{job}
+2023-02-21 11:16:14.187: Hex Def - 6276ed0e47054542bb826503dfe8511fc631fdc1
+2023-02-21 11:16:14.187: Sequence length that satisfies dependencies: 2
+2023-02-21 11:16:14.203: Rendering INVALID
+		- restler_static_string: 'DELETE '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: 'scope'
+		- restler_static_string: '/'
+		- restler_static_string: '_READER_DELIM_scope_post_job_READER_DELIM'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: 6-dot-authentiqio.appspot.com\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Found a matching prefix of length 1 for request 11 with previous request 5
+	but that prefix was INVALID (root = 5)
+
+2023-02-21 11:16:14.234: Request 11
+2023-02-21 11:16:14.234: Endpoint - /scope/{job}
+2023-02-21 11:16:14.234: Hex Def - 80e625dc0052f5cd00576fab322ae485eeda2d54
+2023-02-21 11:16:14.234: Sequence length that satisfies dependencies: 2
+2023-02-21 11:16:14.234: Rendering INVALID
+		- restler_static_string: 'PUT '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: 'scope'
+		- restler_static_string: '/'
+		- restler_static_string: '_READER_DELIM_scope_post_job_READER_DELIM'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: 6-dot-authentiqio.appspot.com\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Found a matching prefix of length 1 for request 12 with previous request 5
+	but that prefix was INVALID (root = 5)
+
+2023-02-21 11:16:14.281: Request 12
+2023-02-21 11:16:14.281: Endpoint - /scope/{job}
+2023-02-21 11:16:14.281: Hex Def - 96fb81c0968c9bfde932a1b3c9aa8f0c6a427003
+2023-02-21 11:16:14.281: Sequence length that satisfies dependencies: 2
+2023-02-21 11:16:14.281: Rendering INVALID
+		- restler_static_string: 'POST '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: 'scope'
+		- restler_static_string: '/'
+		- restler_static_string: '_READER_DELIM_scope_post_job_READER_DELIM'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: 6-dot-authentiqio.appspot.com\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+Found a matching prefix of length 1 for request 13 with previous request 5
+	but that prefix was INVALID (root = 5)
+
+2023-02-21 11:16:14.328: Request 13
+2023-02-21 11:16:14.328: Endpoint - /scope/{job}
+2023-02-21 11:16:14.328: Hex Def - fc0426a6c3746fca25b099fec2691bd5ee63b088
+2023-02-21 11:16:14.328: Sequence length that satisfies dependencies: 2
+2023-02-21 11:16:14.328: Rendering INVALID
+		- restler_static_string: 'GET '
+		- restler_static_string: ''
+		- restler_static_string: '/'
+		- restler_static_string: 'scope'
+		- restler_static_string: '/'
+		- restler_static_string: '_READER_DELIM_scope_post_job_READER_DELIM'
+		- restler_static_string: ' HTTP/1.1\r\n'
+		- restler_static_string: 'Accept: application/json\r\n'
+		- restler_static_string: 'Host: 6-dot-authentiqio.appspot.com\r\n'
+		+ restler_refreshable_authentication_token: ['token_auth_method', 'token_refresh_interval']
+		- restler_static_string: '\r\n'
+
+2023-02-21 11:16:14.359: Generation: 2 / Sequences Collection Size: 0 
+(After directed-smoke-test Render)
+
+2023-02-21 11:16:14.359: Final Swagger spec coverage: 0 / 14
+2023-02-21 11:16:14.359: Rendered requests: 9 / 14
+2023-02-21 11:16:14.359: Rendered requests with "valid" status codes: 0 / 9
+2023-02-21 11:16:14.359: Num fully valid requests (no resource creation failures): 0
+2023-02-21 11:16:14.359: Num requests not rendered due to invalid sequence re-renders: 0
+2023-02-21 11:16:14.359: Num invalid requests caused by failed resource creations: 0
+2023-02-21 11:16:14.359: Total Creations of Dyn Objects: 0
+2023-02-21 11:16:14.359: Total Requests Sent: {'gc': 0, 'main_driver': 18, 'LeakageRuleChecker': 0, 'ResourceHierarchyChecker': 0, 'UseAfterFreeChecker': 0, 'InvalidDynamicObjectChecker': 0, 'PayloadBodyChecker': 0, 'ExamplesChecker': 0, 'InvalidValueChecker': 0}
+2023-02-21 11:16:14.359: Bug Buckets: {}
+
+Testing completed -- below are the final stats:
+
+2023-02-21 11:16:14.390: Final Swagger spec coverage: 0 / 14
+2023-02-21 11:16:14.390: Rendered requests: 9 / 14
+2023-02-21 11:16:14.390: Rendered requests with "valid" status codes: 0 / 9
+2023-02-21 11:16:14.390: Num fully valid requests (no resource creation failures): 0
+2023-02-21 11:16:14.390: Num requests not rendered due to invalid sequence re-renders: 0
+2023-02-21 11:16:14.390: Num invalid requests caused by failed resource creations: 0
+2023-02-21 11:16:14.390: Total Creations of Dyn Objects: 0
+2023-02-21 11:16:14.390: Total Requests Sent: {'gc': 0, 'main_driver': 18, 'LeakageRuleChecker': 0, 'ResourceHierarchyChecker': 0, 'UseAfterFreeChecker': 0, 'InvalidDynamicObjectChecker': 0, 'PayloadBodyChecker': 0, 'ExamplesChecker': 0, 'InvalidValueChecker': 0}
+2023-02-21 11:16:14.390: Bug Buckets: {}

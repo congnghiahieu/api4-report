@@ -1,0 +1,23 @@
+{
+  "SwaggerSpecFilePath": [
+    "D:\\Workspace\\apiTesting\\report\\Restler\\4\\4.json"
+  ],
+  "GrammarOutputDirectoryPath": "D:\\Workspace\\apiTesting\\report\\Restler\\4\\Compile",
+  "CustomDictionaryFilePath": "D:\\Workspace\\apiTesting\\report\\Restler\\4\\Compile\\defaultDict.json",
+  "IncludeOptionalParameters": true,
+  "UseHeaderExamples": true,
+  "UsePathExamples": false,
+  "UseQueryExamples": true,
+  "UseBodyExamples": true,
+  "UseAllExamplePayloads": false,
+  "DiscoverExamples": false,
+  "ExamplesDirectory": "",
+  "DataFuzzing": true,
+  "ReadOnlyFuzz": false,
+  "ResolveQueryDependencies": true,
+  "ResolveBodyDependencies": true,
+  "ResolveHeaderDependencies": false,
+  "UseRefreshableToken": true,
+  "AllowGetProducers": false,
+  "TrackFuzzedParameterNames": false
+}

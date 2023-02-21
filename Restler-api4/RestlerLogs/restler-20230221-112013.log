@@ -1,0 +1,32 @@
+Restler Information: 0 : Starting task Fuzz...
+    DateTime=2023-02-21T04:20:13.2020331Z
+Restler Information: 0 : Launching 'python.exe --version'
+    DateTime=2023-02-21T04:20:13.2668072Z
+Restler Information: 0 : Process execution terminated in 00:00:00.0163464 with exit code 0x0: 'python.exe --version'
+    DateTime=2023-02-21T04:20:13.2870837Z
+Restler Information: 0 : (2996) python.exe --version exited with code: 0
+    DateTime=2023-02-21T04:20:13.2910027Z
+Restler Information: 0 : Launching 'python.exe -B "D:\Workspace\apiTesting\restler_bin\restler\../engine/restler.py" --restler_grammar "D:\Workspace\apiTesting\report\Restler\4\Compile\grammar.py" --custom_mutations "D:\Workspace\apiTesting\report\Restler\4\Compile\dict.json" --set_version 9.1.1    --no_ssl   --settings "D:\Workspace\apiTesting\report\Restler\4\Compile\engine_settings.json" --enable_checkers * --disable_checkers namespacerule --time_budget 1.000000   --include_user_agent --no_tokens_in_logs t --garbage_collection_interval 30 --fuzzing_mode bfs-fast'
+    DateTime=2023-02-21T04:20:13.2997575Z
+Restler Information: 0 : Process execution terminated in 00:07:54.1818082 with exit code 0x0: 'python.exe -B "D:\Workspace\apiTesting\restler_bin\restler\../engine/restler.py" --restler_grammar "D:\Workspace\apiTesting\report\Restler\4\Compile\grammar.py" --custom_mutations "D:\Workspace\apiTesting\report\Restler\4\Compile\dict.json" --set_version 9.1.1    --no_ssl   --settings "D:\Workspace\apiTesting\report\Restler\4\Compile\engine_settings.json" --enable_checkers * --disable_checkers namespacerule --time_budget 1.000000   --include_user_agent --no_tokens_in_logs t --garbage_collection_interval 30 --fuzzing_mode bfs-fast'
+    DateTime=2023-02-21T04:28:07.4817385Z
+Restler Information: 0 : (9492) python.exe -B "D:\Workspace\apiTesting\restler_bin\restler\../engine/restler.py" --restler_grammar "D:\Workspace\apiTesting\report\Restler\4\Compile\grammar.py" --custom_mutations "D:\Workspace\apiTesting\report\Restler\4\Compile\dict.json" --set_version 9.1.1    --no_ssl   --settings "D:\Workspace\apiTesting\report\Restler\4\Compile\engine_settings.json" --enable_checkers * --disable_checkers namespacerule --time_budget 1.000000   --include_user_agent --no_tokens_in_logs t --garbage_collection_interval 30 --fuzzing_mode bfs-fast exited with code: 0
+    DateTime=2023-02-21T04:28:07.4820204Z
+Restler Information: 0 : Launching 'dotnet "D:\Workspace\apiTesting\restler_bin\restler\../resultsAnalyzer/Restler.ResultsAnalyzer.dll" analyze "D:\Workspace\apiTesting\report\Restler\4\Fuzz" --output_dir "D:\Workspace\apiTesting\report\Restler\4\Fuzz\ResponseBuckets" --dictionary_file "D:\Workspace\apiTesting\report\Restler\4\Compile\dict.json" --max_instances_per_bucket 10'
+    DateTime=2023-02-21T04:28:07.5006694Z
+Restler Information: 0 : Process execution terminated in 00:00:02.1726668 with exit code 0xE0434352: 'dotnet "D:\Workspace\apiTesting\restler_bin\restler\../resultsAnalyzer/Restler.ResultsAnalyzer.dll" analyze "D:\Workspace\apiTesting\report\Restler\4\Fuzz" --output_dir "D:\Workspace\apiTesting\report\Restler\4\Fuzz\ResponseBuckets" --dictionary_file "D:\Workspace\apiTesting\report\Restler\4\Compile\dict.json" --max_instances_per_bucket 10'
+    DateTime=2023-02-21T04:28:09.6734273Z
+Restler Information: 0 : (7440) dotnet "D:\Workspace\apiTesting\restler_bin\restler\../resultsAnalyzer/Restler.ResultsAnalyzer.dll" analyze "D:\Workspace\apiTesting\report\Restler\4\Fuzz" --output_dir "D:\Workspace\apiTesting\report\Restler\4\Fuzz\ResponseBuckets" --dictionary_file "D:\Workspace\apiTesting\report\Restler\4\Compile\dict.json" --max_instances_per_bucket 10 exited with code: -532462766
+    DateTime=2023-02-21T04:28:09.6735503Z
+Restler Error: 0 : Results analyzer for logs in D:\Workspace\apiTesting\report\Restler\4\Fuzz failed.
+    DateTime=2023-02-21T04:28:09.6760796Z
+Restler Information: 0 : Request coverage (successful / total): 0 / 14
+    DateTime=2023-02-21T04:28:09.8688935Z
+Restler Information: 0 : Attempted requests: 0 / 14
+    DateTime=2023-02-21T04:28:09.8692691Z
+Restler Information: 0 : No bugs were found.
+    DateTime=2023-02-21T04:28:09.8734951Z
+Restler Information: 0 : Task Fuzz succeeded.
+    DateTime=2023-02-21T04:28:09.8795605Z
+Restler Information: 0 : Collecting logs...
+    DateTime=2023-02-21T04:28:09.8826760Z

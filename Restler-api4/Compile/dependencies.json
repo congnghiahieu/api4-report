@@ -1,0 +1,162 @@
+{
+  "/key": {
+    "DELETE": {
+      "Query": [
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "code"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "email"
+        },
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "phone"
+        }
+      ]
+    }
+  },
+  "/key/{PK}": {
+    "DELETE": {
+      "Path": [
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "PK"
+        }
+      ],
+      "Query": [
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "secret"
+        }
+      ]
+    },
+    "GET": {
+      "Path": [
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "PK"
+        }
+      ]
+    },
+    "HEAD": {
+      "Path": [
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "PK"
+        }
+      ]
+    },
+    "POST": {
+      "Path": [
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "PK"
+        }
+      ]
+    },
+    "PUT": {
+      "Path": [
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "restler_custom_payload_uuid_suffix__PK",
+          "consumer_param": "PK"
+        }
+      ]
+    }
+  },
+  "/login": {
+    "POST": {
+      "Query": [
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "callback"
+        }
+      ]
+    }
+  },
+  "/scope": {
+    "POST": {
+      "Query": [
+        {
+          "producer_endpoint": "",
+          "producer_method": "",
+          "producer_resource_name": "",
+          "consumer_param": "test"
+        }
+      ]
+    }
+  },
+  "/scope/{job}": {
+    "DELETE": {
+      "Path": [
+        {
+          "producer_endpoint": "/scope",
+          "producer_method": "POST",
+          "producer_resource_name": "job",
+          "consumer_param": "job"
+        }
+      ]
+    },
+    "GET": {
+      "Path": [
+        {
+          "producer_endpoint": "/scope",
+          "producer_method": "POST",
+          "producer_resource_name": "job",
+          "consumer_param": "job"
+        }
+      ]
+    },
+    "HEAD": {
+      "Path": [
+        {
+          "producer_endpoint": "/scope",
+          "producer_method": "POST",
+          "producer_resource_name": "job",
+          "consumer_param": "job"
+        }
+      ]
+    },
+    "POST": {
+      "Path": [
+        {
+          "producer_endpoint": "/scope",
+          "producer_method": "POST",
+          "producer_resource_name": "job",
+          "consumer_param": "job"
+        }
+      ]
+    },
+    "PUT": {
+      "Path": [
+        {
+          "producer_endpoint": "/scope",
+          "producer_method": "POST",
+          "producer_resource_name": "job",
+          "consumer_param": "job"
+        }
+      ]
+    }
+  }
+}

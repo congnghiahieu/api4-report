@@ -1,0 +1,681 @@
+[
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/key",
+          "method": "Delete"
+        },
+        "ResourceReference": {
+          "QueryResource": "email"
+        },
+        "ContainerName": "key",
+        "PathContainerName": "key",
+        "CandidateTypeNames": [
+          "key"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "email",
+        "ProducerParameterName": "email",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/key",
+          "method": "Delete"
+        },
+        "ResourceReference": {
+          "QueryResource": "phone"
+        },
+        "ContainerName": "key",
+        "PathContainerName": "key",
+        "CandidateTypeNames": [
+          "key"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "phone",
+        "ProducerParameterName": "phone",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/key",
+          "method": "Delete"
+        },
+        "ResourceReference": {
+          "QueryResource": "code"
+        },
+        "ContainerName": "key",
+        "PathContainerName": "key",
+        "CandidateTypeNames": [
+          "key"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "code",
+        "ProducerParameterName": "code",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/key/{PK}",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "PathResource": {
+            "name": "PK",
+            "pathToParameter": [
+              "key"
+            ],
+            "responsePath": {
+              "path": []
+            }
+          }
+        },
+        "ContainerName": "key",
+        "PathContainerName": "key",
+        "CandidateTypeNames": [
+          "key"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "PK",
+        "ProducerParameterName": "pk",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Path"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/key/{PK}",
+          "method": "Post"
+        },
+        "ResourceReference": {
+          "PathResource": {
+            "name": "PK",
+            "pathToParameter": [
+              "key"
+            ],
+            "responsePath": {
+              "path": []
+            }
+          }
+        },
+        "ContainerName": "key",
+        "PathContainerName": "key",
+        "CandidateTypeNames": [
+          "key"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "PK",
+        "ProducerParameterName": "pk",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Path"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/key/{PK}",
+          "method": "Put"
+        },
+        "ResourceReference": {
+          "PathResource": {
+            "name": "PK",
+            "pathToParameter": [
+              "key"
+            ],
+            "responsePath": {
+              "path": []
+            }
+          }
+        },
+        "ContainerName": "key",
+        "PathContainerName": "key",
+        "CandidateTypeNames": [
+          "key"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "PK",
+        "ProducerParameterName": "pk",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Path"
+    },
+    "producer": {
+      "DictionaryPayload": {
+        "payloadType": "UuidSuffix",
+        "primitiveType": "String",
+        "name": "PK",
+        "isObject": false
+      }
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/key/{PK}",
+          "method": "Delete"
+        },
+        "ResourceReference": {
+          "PathResource": {
+            "name": "PK",
+            "pathToParameter": [
+              "key"
+            ],
+            "responsePath": {
+              "path": []
+            }
+          }
+        },
+        "ContainerName": "key",
+        "PathContainerName": "key",
+        "CandidateTypeNames": [
+          "key"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "PK",
+        "ProducerParameterName": "pk",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Path"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/key/{PK}",
+          "method": "Delete"
+        },
+        "ResourceReference": {
+          "QueryResource": "secret"
+        },
+        "ContainerName": "key",
+        "PathContainerName": "key",
+        "CandidateTypeNames": [
+          "key"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "secret",
+        "ProducerParameterName": "secret",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/key/{PK}",
+          "method": "Head"
+        },
+        "ResourceReference": {
+          "PathResource": {
+            "name": "PK",
+            "pathToParameter": [
+              "key"
+            ],
+            "responsePath": {
+              "path": []
+            }
+          }
+        },
+        "ContainerName": "key",
+        "PathContainerName": "key",
+        "CandidateTypeNames": [
+          "key"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "PK",
+        "ProducerParameterName": "pk",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Path"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/login",
+          "method": "Post"
+        },
+        "ResourceReference": {
+          "QueryResource": "callback"
+        },
+        "ContainerName": "login",
+        "PathContainerName": "login",
+        "CandidateTypeNames": [
+          "login"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "callback",
+        "ProducerParameterName": "callback",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/scope",
+          "method": "Post"
+        },
+        "ResourceReference": {
+          "QueryResource": "test"
+        },
+        "ContainerName": "scope",
+        "PathContainerName": "scope",
+        "CandidateTypeNames": [
+          "scope"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "test",
+        "ProducerParameterName": "test",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Query"
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/scope/{job}",
+          "method": "Get"
+        },
+        "ResourceReference": {
+          "PathResource": {
+            "name": "job",
+            "pathToParameter": [
+              "scope"
+            ],
+            "responsePath": {
+              "path": []
+            }
+          }
+        },
+        "ContainerName": "scope",
+        "PathContainerName": "scope",
+        "CandidateTypeNames": [
+          "scope"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "job",
+        "ProducerParameterName": "job",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Path"
+    },
+    "producer": {
+      "ResponseObject": {
+        "id": {
+          "RequestId": {
+            "endpoint": "/scope",
+            "method": "Post"
+          },
+          "ResourceReference": {
+            "BodyResource": {
+              "name": "job",
+              "fullPath": {
+                "path": [
+                  "job"
+                ]
+              }
+            }
+          },
+          "ContainerName": "scope",
+          "PathContainerName": "scope",
+          "CandidateTypeNames": [
+            "scope"
+          ],
+          "AccessPath": "job",
+          "AccessPathParts": {
+            "path": [
+              "job"
+            ]
+          },
+          "ResourceName": "job",
+          "ProducerParameterName": "job",
+          "IsNestedBodyResource": false,
+          "PrimitiveType": "String"
+        }
+      }
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/scope/{job}",
+          "method": "Post"
+        },
+        "ResourceReference": {
+          "PathResource": {
+            "name": "job",
+            "pathToParameter": [
+              "scope"
+            ],
+            "responsePath": {
+              "path": []
+            }
+          }
+        },
+        "ContainerName": "scope",
+        "PathContainerName": "scope",
+        "CandidateTypeNames": [
+          "scope"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "job",
+        "ProducerParameterName": "job",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Path"
+    },
+    "producer": {
+      "ResponseObject": {
+        "id": {
+          "RequestId": {
+            "endpoint": "/scope",
+            "method": "Post"
+          },
+          "ResourceReference": {
+            "BodyResource": {
+              "name": "job",
+              "fullPath": {
+                "path": [
+                  "job"
+                ]
+              }
+            }
+          },
+          "ContainerName": "scope",
+          "PathContainerName": "scope",
+          "CandidateTypeNames": [
+            "scope"
+          ],
+          "AccessPath": "job",
+          "AccessPathParts": {
+            "path": [
+              "job"
+            ]
+          },
+          "ResourceName": "job",
+          "ProducerParameterName": "job",
+          "IsNestedBodyResource": false,
+          "PrimitiveType": "String"
+        }
+      }
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/scope/{job}",
+          "method": "Put"
+        },
+        "ResourceReference": {
+          "PathResource": {
+            "name": "job",
+            "pathToParameter": [
+              "scope"
+            ],
+            "responsePath": {
+              "path": []
+            }
+          }
+        },
+        "ContainerName": "scope",
+        "PathContainerName": "scope",
+        "CandidateTypeNames": [
+          "scope"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "job",
+        "ProducerParameterName": "job",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Path"
+    },
+    "producer": {
+      "ResponseObject": {
+        "id": {
+          "RequestId": {
+            "endpoint": "/scope",
+            "method": "Post"
+          },
+          "ResourceReference": {
+            "BodyResource": {
+              "name": "job",
+              "fullPath": {
+                "path": [
+                  "job"
+                ]
+              }
+            }
+          },
+          "ContainerName": "scope",
+          "PathContainerName": "scope",
+          "CandidateTypeNames": [
+            "scope"
+          ],
+          "AccessPath": "job",
+          "AccessPathParts": {
+            "path": [
+              "job"
+            ]
+          },
+          "ResourceName": "job",
+          "ProducerParameterName": "job",
+          "IsNestedBodyResource": false,
+          "PrimitiveType": "String"
+        }
+      }
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/scope/{job}",
+          "method": "Delete"
+        },
+        "ResourceReference": {
+          "PathResource": {
+            "name": "job",
+            "pathToParameter": [
+              "scope"
+            ],
+            "responsePath": {
+              "path": []
+            }
+          }
+        },
+        "ContainerName": "scope",
+        "PathContainerName": "scope",
+        "CandidateTypeNames": [
+          "scope"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "job",
+        "ProducerParameterName": "job",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Path"
+    },
+    "producer": {
+      "ResponseObject": {
+        "id": {
+          "RequestId": {
+            "endpoint": "/scope",
+            "method": "Post"
+          },
+          "ResourceReference": {
+            "BodyResource": {
+              "name": "job",
+              "fullPath": {
+                "path": [
+                  "job"
+                ]
+              }
+            }
+          },
+          "ContainerName": "scope",
+          "PathContainerName": "scope",
+          "CandidateTypeNames": [
+            "scope"
+          ],
+          "AccessPath": "job",
+          "AccessPathParts": {
+            "path": [
+              "job"
+            ]
+          },
+          "ResourceName": "job",
+          "ProducerParameterName": "job",
+          "IsNestedBodyResource": false,
+          "PrimitiveType": "String"
+        }
+      }
+    }
+  },
+  {
+    "consumer": {
+      "id": {
+        "RequestId": {
+          "endpoint": "/scope/{job}",
+          "method": "Head"
+        },
+        "ResourceReference": {
+          "PathResource": {
+            "name": "job",
+            "pathToParameter": [
+              "scope"
+            ],
+            "responsePath": {
+              "path": []
+            }
+          }
+        },
+        "ContainerName": "scope",
+        "PathContainerName": "scope",
+        "CandidateTypeNames": [
+          "scope"
+        ],
+        "AccessPathParts": {
+          "path": []
+        },
+        "ResourceName": "job",
+        "ProducerParameterName": "job",
+        "IsNestedBodyResource": false,
+        "PrimitiveType": "String"
+      },
+      "parameterKind": "Path"
+    },
+    "producer": {
+      "ResponseObject": {
+        "id": {
+          "RequestId": {
+            "endpoint": "/scope",
+            "method": "Post"
+          },
+          "ResourceReference": {
+            "BodyResource": {
+              "name": "job",
+              "fullPath": {
+                "path": [
+                  "job"
+                ]
+              }
+            }
+          },
+          "ContainerName": "scope",
+          "PathContainerName": "scope",
+          "CandidateTypeNames": [
+            "scope"
+          ],
+          "AccessPath": "job",
+          "AccessPathParts": {
+            "path": [
+              "job"
+            ]
+          },
+          "ResourceName": "job",
+          "ProducerParameterName": "job",
+          "IsNestedBodyResource": false,
+          "PrimitiveType": "String"
+        }
+      }
+    }
+  }
+]

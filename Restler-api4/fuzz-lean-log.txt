@@ -1,0 +1,12 @@
+D:\Workspace\apiTesting\restler_bin\restler\Restler.exe fuzz-lean --grammar_file D:\Workspace\apiTesting\report\Restler\4\Compile\grammar.py --dictionary_file D:\Workspace\apiTesting\report\Restler\4\Compile\dict.json --settings D:\Workspace\apiTesting\report\Restler\4\Compile\engine_settings.json --no_ssl
+Starting task FuzzLean...
+Using python: 'python.exe' (Python 3.11.0)
+
+ERROR: Results analyzer for logs in D:\Workspace\apiTesting\report\Restler\4\FuzzLean failed.
+
+Request coverage (successful / total): 0 / 14
+Attempted requests: 9 / 14
+No bugs were found.
+See 'coverage_failures_to_investigate.txt.txt' to investigate API coverage.
+Task FuzzLean succeeded.
+Collecting logs...

@@ -1,0 +1,89 @@
+Warning: could not parse request in line 594: DELETE /key?email=]id>#dZhP 8[ N=i:~}M`dH&phone=fuzzstring&code=fuzzstring HTTP/1.1\r\nAccept: application/json\r\nHost: 6-dot-authentiqio.appspot.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.1.1\r\n\r\n
+Warning: could not parse request in line 653: DELETE /key?email=Lh >`,s!\\B^XoCNh^07,vJl<2!&phone=fuzzstring&code=fuzzstring HTTP/1.1\r\nAccept: application/json\r\nHost: 6-dot-authentiqio.appspot.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.1.1\r\n\r\n
+Warning: could not parse request in line 682: DELETE /key?email=v\\Mc.TE5^mV^Nq}?o">T&phone=fuzzstring&code=fuzzstring HTTP/1.1\r\nAccept: application/json\r\nHost: 6-dot-authentiqio.appspot.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.1.1\r\n\r\n
+Warning: could not parse request in line 794: DELETE /key?email=Rv3\x0cnw\rv%KcL |d!#:qE71At`Q&phone=fuzzstring&code=fuzzstring HTTP/1.1\r\nAccept: application/json\r\nHost: 6-dot-authentiqio.appspot.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.1.1\r\n\r\n
+Warning: could not parse request in line 911: DELETE /key?email=_4\ru^]q[$ +5]tkv{S5X0++)0$\x0cA,Xhop;oT\rW&phone=fuzzstring&code=fuzzstring HTTP/1.1\r\nAccept: application/json\r\nHost: 6-dot-authentiqio.appspot.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.1.1\r\n\r\n
+Warning: could not parse request in line 942: DELETE /key?email=\nV\x0b2wU3@|_Hqd{g!Nv!\n#$g zN\x0c\to;za[)&phone=fuzzstring&code=fuzzstring HTTP/1.1\r\nAccept: application/json\r\nHost: 6-dot-authentiqio.appspot.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.1.1\r\n\r\n
+Warning: could not parse request in line 972: DELETE /key?email=1)J\t(M?\ne%gQ*}=Fc:K!.\x0b)yYj5i4\\v+s&phone=fuzzstring&code=fuzzstring HTTP/1.1\r\nAccept: application/json\r\nHost: 6-dot-authentiqio.appspot.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.1.1\r\n\r\n
+Warning: could not parse request in line 1031: DELETE /key?email=w`%ZS`_SM%p~I/.Y&@S`)ZqDK+_J_ p={&phone=fuzzstring&code=fuzzstring HTTP/1.1\r\nAccept: application/json\r\nHost: 6-dot-authentiqio.appspot.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.1.1\r\n\r\n
+Warning: could not parse request in line 1120: DELETE /key?email=.).3yNOZ\\l3}r;$5\\X5W_A1fIGcBJCb)E0a\t?&phone=fuzzstring&code=fuzzstring HTTP/1.1\r\nAccept: application/json\r\nHost: 6-dot-authentiqio.appspot.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.1.1\r\n\r\n
+Warning: could not parse request in line 1181: DELETE /key?email=vw$-Y\nl/$5~g}g\x0b\x0blU;.?]\rL"rBci-`MvTA#M_5&phone=fuzzstring&code=fuzzstring HTTP/1.1\r\nAccept: application/json\r\nHost: 6-dot-authentiqio.appspot.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.1.1\r\n\r\n
+Warning: could not parse request in line 1334: DELETE /key?email=r*&c*\x0cd5iho6S^imU\n(8LCyz\tO<&hawpUy0lv?OJ\rZ\x0b7[NB&phone=fuzzstring&code=fuzzstring HTTP/1.1\r\nAccept: application/json\r\nHost: 6-dot-authentiqio.appspot.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.1.1\r\n\r\n
+Warning: could not parse request in line 1394: DELETE /key?email=o@ni"^h!\x0c8\t8b&v|`\\3h\x0c7Md:x PJ9|K6]\'\t28E\n|qYj[/G\tf#{O9&phone=fuzzstring&code=fuzzstring HTTP/1.1\r\nAccept: application/json\r\nHost: 6-dot-authentiqio.appspot.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.1.1\r\n\r\n
+Warning: could not parse request in line 1485: DELETE /key?email=wL2:#0V!na<QlD\rcTsx,T=rNV\nO3mXE*8Dx5 ?&h~#D9ejN$)&phone=fuzzstring&code=fuzzstring HTTP/1.1\r\nAccept: application/json\r\nHost: 6-dot-authentiqio.appspot.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.1.1\r\n\r\n
+Warning: could not parse request in line 1782: DELETE /key?email=fuzzstring&phone=Hcd\n)DH* G&code=fuzzstring HTTP/1.1\r\nAccept: application/json\r\nHost: 6-dot-authentiqio.appspot.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.1.1\r\n\r\n
+Warning: could not parse request in line 1811: DELETE /key?email=fuzzstring&phone=Xkrj X.|o/F&code=fuzzstring HTTP/1.1\r\nAccept: application/json\r\nHost: 6-dot-authentiqio.appspot.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.1.1\r\n\r\n
+Warning: could not parse request in line 1954: DELETE /key?email=fuzzstring&phone=|%?i\x0cSO@WYnSl[U;*&code=fuzzstring HTTP/1.1\r\nAccept: application/json\r\nHost: 6-dot-authentiqio.appspot.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.1.1\r\n\r\n
+Warning: could not parse request in line 2101: DELETE /key?email=fuzzstring&phone=8QGrd%3Lvw?OW?+eO9(2x*t_a#&code=fuzzstring HTTP/1.1\r\nAccept: application/json\r\nHost: 6-dot-authentiqio.appspot.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.1.1\r\n\r\n
+Warning: could not parse request in line 2184: DELETE /key?email=fuzzstring&phone=`D%X|$c8+C\x0b-Bx% RWG:\n*\\d<[f\\&code=fuzzstring HTTP/1.1\r\nAccept: application/json\r\nHost: 6-dot-authentiqio.appspot.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.1.1\r\n\r\n
+Warning: could not parse request in line 2301: DELETE /key?email=fuzzstring&phone=0\x0b*hFf<-yYR{P@P\r_p[gGn>\x0b[_]X?3&code=fuzzstring HTTP/1.1\r\nAccept: application/json\r\nHost: 6-dot-authentiqio.appspot.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.1.1\r\n\r\n
+Warning: could not parse request in line 2508: DELETE /key?email=fuzzstring&phone=32yC@ pCG6SR4\r;qxL$oGM{\npei\x0bi%FjqlH&code=fuzzstring HTTP/1.1\r\nAccept: application/json\r\nHost: 6-dot-authentiqio.appspot.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.1.1\r\n\r\n
+Warning: could not parse request in line 2567: DELETE /key?email=fuzzstring&phone=s?zJc$g7cglwF+oj)4?2|Z/e"354nW~Qc{N&&code=fuzzstring HTTP/1.1\r\nAccept: application/json\r\nHost: 6-dot-authentiqio.appspot.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.1.1\r\n\r\n
+Warning: could not parse request in line 2685: DELETE /key?email=fuzzstring&phone=ff~fwrrzEO9Q]0_G^Wz\r9%gL^}K_\\19\tK\x0ct3Pa ,Ty/u@.-e!&code=fuzzstring HTTP/1.1\r\nAccept: application/json\r\nHost: 6-dot-authentiqio.appspot.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.1.1\r\n\r\n
+Warning: could not parse request in line 2769: DELETE /key?email=fuzzstring&phone==P<PN8X8C&Y2m4JfHsTr~3w DMNW4(QQ( QK?/#TdB&code=fuzzstring HTTP/1.1\r\nAccept: application/json\r\nHost: 6-dot-authentiqio.appspot.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.1.1\r\n\r\n
+Warning: could not parse request in line 2828: DELETE /key?email=fuzzstring&phone=f\'=*\ndAcn#"JidLVeN~?H,b\x0bbV8{OV+D=`S:\t=2I42K/2B?FwD&code=fuzzstring HTTP/1.1\r\nAccept: application/json\r\nHost: 6-dot-authentiqio.appspot.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.1.1\r\n\r\n
+Warning: could not parse request in line 2921: DELETE /key?email=fuzzstring&phone=ILQ\\i(.82"Yh\\\nPL UQ <ufr!iHs8M|p=\n}NJJEvt(lKj+aba-Rn>pgV&code=fuzzstring HTTP/1.1\r\nAccept: application/json\r\nHost: 6-dot-authentiqio.appspot.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.1.1\r\n\r\n
+Warning: could not parse request in line 3029: DELETE /key?email=fuzzstring&phone=fuzzstring&code=Tt8, nD,A HTTP/1.1\r\nAccept: application/json\r\nHost: 6-dot-authentiqio.appspot.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.1.1\r\n\r\n
+Warning: could not parse request in line 3058: DELETE /key?email=fuzzstring&phone=fuzzstring&code=le y+ HTTP/1.1\r\nAccept: application/json\r\nHost: 6-dot-authentiqio.appspot.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.1.1\r\n\r\n
+Warning: could not parse request in line 3538: DELETE /key?email=fuzzstring&phone=fuzzstring&code==Aighz>;?QOf+r\x0cXTr^zRoUb.{/3 HTTP/1.1\r\nAccept: application/json\r\nHost: 6-dot-authentiqio.appspot.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.1.1\r\n\r\n
+Warning: could not parse request in line 3774: DELETE /key?email=fuzzstring&phone=fuzzstring&code= {X"zrL3"iL;bVsqy\n9[\t5yL(N8s HTTP/1.1\r\nAccept: application/json\r\nHost: 6-dot-authentiqio.appspot.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.1.1\r\n\r\n
+Warning: could not parse request in line 3835: DELETE /key?email=fuzzstring&phone=fuzzstring&code=\rk=!H*`m@i_69g2?:\x0boDe| 3Rb-aG~y;qq HTTP/1.1\r\nAccept: application/json\r\nHost: 6-dot-authentiqio.appspot.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.1.1\r\n\r\n
+Warning: could not parse request in line 3958: DELETE /key?email=fuzzstring&phone=fuzzstring&code=,>OxGAOg:fb L@3Wo;=\n%]?"*gmp1%q]STgC<x?  HTTP/1.1\r\nAccept: application/json\r\nHost: 6-dot-authentiqio.appspot.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.1.1\r\n\r\n
+Warning: could not parse request in line 3988: DELETE /key?email=fuzzstring&phone=fuzzstring&code=oLt~C{$?!nyI\\k[3\\|EcW<q$Q,=N\rfPL,w:m9  HTTP/1.1\r\nAccept: application/json\r\nHost: 6-dot-authentiqio.appspot.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.1.1\r\n\r\n
+Warning: could not parse request in line 4019: DELETE /key?email=fuzzstring&phone=fuzzstring&code=?[@0LoGY}*5l0+VYby}1k5zYBL*F\r`J=^Y/\rwZ HTTP/1.1\r\nAccept: application/json\r\nHost: 6-dot-authentiqio.appspot.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.1.1\r\n\r\n
+Warning: could not parse request in line 4109: DELETE /key?email=fuzzstring&phone=fuzzstring&code=\\S(q8`m!BoK{LL(X5!jLt\nT @6hkdWqz\n/3Y~Y|!em/PFeJG HTTP/1.1\r\nAccept: application/json\r\nHost: 6-dot-authentiqio.appspot.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.1.1\r\n\r\n
+Warning: could not parse request in line 4140: DELETE /key?email=fuzzstring&phone=fuzzstring&code=zvC?\\p^THF72Ubc$5ZD `UwYMy28L>0AS\rd\r-Mr\tue/\x0c] t7 HTTP/1.1\r\nAccept: application/json\r\nHost: 6-dot-authentiqio.appspot.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.1.1\r\n\r\n
+Warning: could not parse request in line 4170: DELETE /key?email=fuzzstring&phone=fuzzstring&code=01{!xR,>;e}VK!jE\r{"\x0c?!::i(.l+v6O>e%{14\x0b"\\oR*1o:MO? HTTP/1.1\r\nAccept: application/json\r\nHost: 6-dot-authentiqio.appspot.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.1.1\r\n\r\n
+Warning: could not parse request in line 4293: DELETE /key?email=fuzzstring&phone=fuzzstring&code=f_-^#-D0@bp\x0bHC0A&\tQ=\t/eK1F\\(nWpR;\nE?sP=J"yB>] HTTP/1.1\r\nAccept: application/json\r\nHost: 6-dot-authentiqio.appspot.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.1.1\r\n\r\n
+Warning: could not parse request in line 4323: DELETE /key?email=fuzzstring&phone=fuzzstring&code=&K&5CZ\\p?=~=@;E#eI"Q #{q.o^O\'rZ4@b<x92gr7\rM0\x0bTts\to HTTP/1.1\r\nAccept: application/json\r\nHost: 6-dot-authentiqio.appspot.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.1.1\r\n\r\n
+Warning: could not parse request in line 4353: DELETE /key?email=fuzzstring&phone=fuzzstring&code=V[hNAz{lTeHZli[%D/)C?+X91qW\rCE^<L5fN(yhMvy2(5M~8Wn# HTTP/1.1\r\nAccept: application/json\r\nHost: 6-dot-authentiqio.appspot.com\r\nContent-Length: 0\r\nUser-Agent: restler/9.1.1\r\n\r\n
+Unhandled exception. System.Exception: Unexpected response without prior request at 2/21/2023 11:20:24 AM: { version = "HTTP/1.0"
+  statusCode = 400
+  statusDescription = "Bad Request"
+  headers =
+           map
+             [("Content-Length", "1555");
+              ("Content-Type", "text/html; charset=UTF-8");
+              ("Date", "Tue, 21 Feb 2023 04:20:23 GMT");
+              ("Referrer-Policy", "no-referrer")]
+  body =
+        "<!DOCTYPE html>
+<html lang=en>
+  <meta charset=utf-8>
+  <meta name=viewport content="initial-scale=1, minimum-scale=1, width=device-width">
+  <title>Error 400 (Bad Request)!!1</title>
+  <style>
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  </style>
+  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>
+  <p><b>400.</b> <ins>That's an error.</ins>
+  <p>Your client has issued a malformed or illegal request.  <ins>That's all we know.</ins>
+"
+  str = None }
+   at Microsoft.FSharp.Core.PrintfModule.PrintFormatToStringThenFail@1639.Invoke(String message) in F:\workspace\_work\1\s\src\fsharp\FSharp.Core\printf.fs:line 1639
+   at Microsoft.FSharp.Collections.Internal.IEnumerator.choose@171.System-Collections-IEnumerator-MoveNext() in F:\workspace\_work\1\s\src\fsharp\FSharp.Core\seq.fs:line 179
+   at Microsoft.FSharp.Collections.Internal.IEnumerator.map@75.DoMoveNext(b& curr) in F:\workspace\_work\1\s\src\fsharp\FSharp.Core\seq.fs:line 77
+   at Microsoft.FSharp.Collections.Internal.IEnumerator.MapEnumerator`1.System-Collections-IEnumerator-MoveNext() in F:\workspace\_work\1\s\src\fsharp\FSharp.Core\seq.fs:line 64
+   at Microsoft.FSharp.Core.CompilerServices.RuntimeHelpers.takeInner@266[T,TResult](ConcatEnumerator`2 x, Unit unitVar0) in F:\workspace\_work\1\s\src\fsharp\FSharp.Core\seqcore.fs:line 268
+   at Microsoft.FSharp.Collections.Internal.IEnumerator.map@75.DoMoveNext(b& curr) in F:\workspace\_work\1\s\src\fsharp\FSharp.Core\seq.fs:line 77
+   at Microsoft.FSharp.Collections.Internal.IEnumerator.MapEnumerator`1.System-Collections-IEnumerator-MoveNext() in F:\workspace\_work\1\s\src\fsharp\FSharp.Core\seq.fs:line 64
+   at Microsoft.FSharp.Collections.Internal.IEnumerator.map@75.DoMoveNext(b& curr) in F:\workspace\_work\1\s\src\fsharp\FSharp.Core\seq.fs:line 77
+   at Microsoft.FSharp.Collections.Internal.IEnumerator.MapEnumerator`1.System-Collections-IEnumerator-MoveNext() in F:\workspace\_work\1\s\src\fsharp\FSharp.Core\seq.fs:line 64
+   at Microsoft.FSharp.Core.CompilerServices.RuntimeHelpers.takeInner@266[T,TResult](ConcatEnumerator`2 x, Unit unitVar0) in F:\workspace\_work\1\s\src\fsharp\FSharp.Core\seqcore.fs:line 268
+   at Microsoft.FSharp.Collections.Internal.IEnumerator.next@193[T](FSharpFunc`2 f, IEnumerator`1 e, FSharpRef`1 started, Unit unitVar0) in F:\workspace\_work\1\s\src\fsharp\FSharp.Core\seq.fs:line 194
+   at Microsoft.FSharp.Collections.Internal.IEnumerator.filter@188.System-Collections-IEnumerator-MoveNext() in F:\workspace\_work\1\s\src\fsharp\FSharp.Core\seq.fs:line 196
+   at Microsoft.FSharp.Collections.SeqModule.oneStepTo@987[T](IEnumerable`1 source, List`1 prefix, FSharpRef`1 enumeratorR, Int32 i) in F:\workspace\_work\1\s\src\fsharp\FSharp.Core\seq.fs:line 996
+   at Microsoft.FSharp.Collections.SeqModule.action@4164-1[T](IEnumerable`1 source, List`1 prefix, FSharpRef`1 enumeratorR, Int32 i, Unit unitVar0) in F:\workspace\_work\1\s\src\fsharp\FSharp.Core\seq.fs:line 1011
+   at Microsoft.FSharp.Collections.SeqModule.result@1003.Invoke(Int32 i)
+   at Microsoft.FSharp.Collections.Internal.IEnumerator.unfold@205.DoMoveNext(b& curr) in F:\workspace\_work\1\s\src\fsharp\FSharp.Core\seq.fs:line 207
+   at Microsoft.FSharp.Collections.Internal.IEnumerator.MapEnumerator`1.System-Collections-IEnumerator-MoveNext() in F:\workspace\_work\1\s\src\fsharp\FSharp.Core\seq.fs:line 64
+   at Microsoft.FSharp.Collections.SeqModule.Iterate[T](FSharpFunc`2 action, IEnumerable`1 source) in F:\workspace\_work\1\s\src\fsharp\FSharp.Core\seq.fs:line 496
+   at Microsoft.FSharp.Collections.SeqModule.groupByValueType[T,TKey](FSharpFunc`2 keyf, IEnumerable`1 seq) in F:\workspace\_work\1\s\src\fsharp\FSharp.Core\seq.fs:line 1068
+   at Microsoft.FSharp.Collections.SeqModule.GroupBy@1076.Invoke(Unit unitVar0) in F:\workspace\_work\1\s\src\fsharp\FSharp.Core\seq.fs:line 1076
+   at Microsoft.FSharp.Collections.SeqModule.mkDelayedSeq@471.Invoke(Unit unitVar0) in F:\workspace\_work\1\s\src\fsharp\FSharp.Core\seq.fs:line 471
+   at Restler.ResultsAnalyzer.Analyze.Buckets.getBuckets@98.GenerateNext(IEnumerable`1& next) in D:\Workspace\Test REST API\restler-fuzzer\src\ResultsAnalyzer\Analyze\Buckets.fs:line 98
+   at Microsoft.FSharp.Core.CompilerServices.GeneratedSequenceBase`1.MoveNextImpl() in F:\workspace\_work\1\s\src\fsharp\FSharp.Core\seqcore.fs:line 371
+   at Microsoft.FSharp.Core.CompilerServices.GeneratedSequenceBase`1.System-Collections-IEnumerator-MoveNext() in F:\workspace\_work\1\s\src\fsharp\FSharp.Core\seqcore.fs:line 403
+   at Microsoft.FSharp.Collections.SeqModule.ToList[T](IEnumerable`1 source)
+   at Restler.ResultsAnalyzer.Analyze.Main.main(AnalyzeArgs args) in D:\Workspace\Test REST API\restler-fuzzer\src\ResultsAnalyzer\Analyze\Main.fs:line 86
+   at Restler.ResultsAnalyzer.Program.main(String[] argv) in D:\Workspace\Test REST API\restler-fuzzer\src\ResultsAnalyzer\Program.fs:line 223

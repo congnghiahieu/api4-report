@@ -1,0 +1,12 @@
+Restler Information: 0 : Starting task Compile...
+    DateTime=2023-02-21T04:02:42.5520234Z
+Restler Information: 0 : Launching 'dotnet "D:\Workspace\apiTesting\restler_bin\restler\../compiler/Restler.CompilerExe.dll" "D:\Workspace\apiTesting\report\Restler\4\Compile\config.json"'
+    DateTime=2023-02-21T04:02:42.9133373Z
+Restler Information: 0 : Process execution terminated in 00:00:01.6733631 with exit code 0x0: 'dotnet "D:\Workspace\apiTesting\restler_bin\restler\../compiler/Restler.CompilerExe.dll" "D:\Workspace\apiTesting\report\Restler\4\Compile\config.json"'
+    DateTime=2023-02-21T04:02:44.5983514Z
+Restler Information: 0 : (5388) dotnet "D:\Workspace\apiTesting\restler_bin\restler\../compiler/Restler.CompilerExe.dll" "D:\Workspace\apiTesting\report\Restler\4\Compile\config.json" exited with code: 0
+    DateTime=2023-02-21T04:02:44.6024516Z
+Restler Information: 0 : Task Compile succeeded.
+    DateTime=2023-02-21T04:02:44.6099396Z
+Restler Information: 0 : Collecting logs...
+    DateTime=2023-02-21T04:02:44.6140974Z

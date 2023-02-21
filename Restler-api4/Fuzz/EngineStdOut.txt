@@ -1,0 +1,21 @@
+2023-02-21 11:20:13.500: Initializing: Garbage collection every 30 seconds.
+2023-02-21 11:20:13.500: Generation: 1 
+Invalid value generator random seed: 1676953214.0225523
+Invalid value generator random seed: 1676953240.4142284
+Invalid value generator random seed: 1676953266.9326594
+Invalid value generator random seed: 1676953294.7375712
+Invalid value generator random seed: 1676953323.757313
+Invalid value generator random seed: 1676953354.059629
+Invalid value generator random seed: 1676953384.2441757
+Invalid value generator random seed: 1676953413.2277377
+Invalid value generator random seed: 1676953444.0078766
+Invalid value generator random seed: 1676953473.6587555
+Invalid value generator random seed: 1676953504.9836352
+Invalid value generator random seed: 1676953533.716623
+Invalid value generator random seed: 1676953563.7084846
+Invalid value generator random seed: 1676953594.4734623
+Invalid value generator random seed: 1676953626.2340252
+Invalid value generator random seed: 1676953659.93628
+seq collection exhausted
+2023-02-21 11:28:07.451: Terminating garbage collection. Waiting for max 300 seconds. 
+Done.
