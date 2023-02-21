@@ -1,0 +1,1 @@
+st run --verbosity --workers 8 --checks all --stateful=links https://api.apis.guru/v2/specs/6-dot-authentiqio.appspot.com/6/openapi.json

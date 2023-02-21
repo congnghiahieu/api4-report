@@ -1,0 +1,4 @@
+Output dạng JUNIT4:
+evomaster --blackBox true --outputFormat JAVA_JUNIT_4 --maxTime 15m --ratePerMinute 60 --outputFolder D:\Workspace\apiTesting\report\Evomaster\4\JAVA_JUNIT_4 --bbSwaggerUrl https://api.apis.guru/v2/specs/6-dot-authentiqio.appspot.com/6/openapi.yaml
+Output dạng JUNIT5:
+evomaster --blackBox true --outputFormat JAVA_JUNIT_5 --maxTime 15m --ratePerMinute 60 --outputFolder D:\Workspace\apiTesting\report\Evomaster\4\JAVA_JUNIT_5 --bbSwaggerUrl https://api.apis.guru/v2/specs/6-dot-authentiqio.appspot.com/6/openapi.yaml

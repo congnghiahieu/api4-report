@@ -1,4 +1,3 @@
-st run --verbosity --workers 8 --checks all --stateful=links https://api.apis.guru/v2/specs/6-dot-authentiqio.appspot.com/6/openapi.json
 ===================================================================== Schemathesis test session starts ====================================================================platform Windows -- Python 3.11.0, schemathesis-3.18.2, hypothesis-6.68.1, hypothesis_jsonschema-0.22.1, jsonschema-4.17.3
 rootdir: D:\Workspace\apiTesting
 Hypothesis: deadline=timedelta(milliseconds=15000), database=DirectoryBasedExampleDatabase('D:\\Workspace\\apiTesting\\.hypothesis\\examples')
